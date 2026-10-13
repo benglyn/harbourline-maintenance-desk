@@ -75,9 +75,9 @@
     {
       "id": "long",
       "tab": "Long video (about 12 min)",
-      "title": "Platform walkthrough for Mason",
+      "title": "Platform walkthrough for a partner",
       "length": "About 12 minutes",
-      "audience": "Mason, seeing the platform for the first time: what each part does, how they connect, and how it was built. Talk it through; the points below are prompts, not a script.",
+      "audience": "A partner seeing the platform for the first time: what each part does, how they connect, and how it was built. Talk it through; the points below are prompts, not a script.",
       "before": [
         "Run npm run check so the board has the 8 weekend requests",
         "Tabs open: Architecture, Reports (Airtable), Triage board, Talk to Jane, Portal, Guide",

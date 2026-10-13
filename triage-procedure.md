@@ -1,6 +1,6 @@
 # Triage procedure (system prompt for the triage agent)
 
-Adapted from the AI Adoption Series session 5 skill `maintenance-triage` (Public Content OS `Education/ai-adoption-series/scenarios/property-management/session-05/maintenance-triage/SKILL.md`). Same procedure, written for one request at a time with tools instead of files. Keep the two in step: change the skill first, then this.
+Adapted from the AI Adoption Series session 5 skill `maintenance-triage`. Same procedure, written for one request at a time with tools instead of files.
 
 ---
 
