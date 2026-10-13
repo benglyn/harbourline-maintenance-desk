@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* Ben Glyn internal-app brand: one dark navy theme, no light mode. */
+@theme inline {
+  --color-page: #162f52;
+  --color-header: #0f2340;
+  --color-card: #1c3a63;
+  --color-input: #224575;
+  --color-ink: #f0f4f8;
+  --color-muted: #a9b8cc;
+  --color-line: #2c4a75;
+  --color-gold: #f0c060;
+  --color-blue: #3860ef;
+  --color-cyan: #0dbee4;
+  --color-emergency: #ef4444;
+  --color-urgent: #f97316;
+  --color-routine: #0dbee4;
+  --color-notmaint: #94a3b8;
+  --color-jobupdate: #3860ef;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: #162f52;
+  color: #f0f4f8;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #3860ef, #0dbee4);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+}
+.btn-ghost {
+  border: 1px solid #2c4a75;
+  border-radius: 0.375rem;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.75rem;
+  color: #a9b8cc;
+}
+.btn-ghost:hover {
+  background: #224575;
+  color: #f0f4f8;
+}
+.panel {
+  background: #1c3a63;
+  border: 1px solid #2c4a75;
+  border-radius: 0.75rem;
+}
+.field {
+  background: #224575;
+  border: 1px solid #2c4a75;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  color: #f0f4f8;
+}
+.field::placeholder {
+  color: #a9b8cc;
+}
+.eyebrow {
+  color: #f0c060;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

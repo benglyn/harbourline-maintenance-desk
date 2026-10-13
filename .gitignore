@@ -4,3 +4,5 @@ node_modules/
 .vercel/
 .venv/
 __pycache__/
+*.tsbuildinfo
+next-env.d.ts
