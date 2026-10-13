@@ -7,8 +7,7 @@ const TYPES: Record<string, string> = {
 
 export function clean(s: string) {
   return (" " + s.toLowerCase().replace(/[.,;:()]/g, " ").replace(/\s+/g, " ") + " ")
-    .replace(/ ([a-z]+) /g, (m, w) => (TYPES[w] ? ` ${TYPES[w]} ` : m))
-    .replace(/ ([a-z]+) /g, (m, w) => (TYPES[w] ? ` ${TYPES[w]} ` : m))
+    .replace(/ ([a-z]+)(?= )/g, (m, w) => (TYPES[w] ? ` ${TYPES[w]}` : m))
     .replace(/\s+/g, " ");
 }
 
