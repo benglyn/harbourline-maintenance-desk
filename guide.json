@@ -1,0 +1,252 @@
+{
+  "test": [
+    {
+      "id": "airtable",
+      "title": "Airtable base and Reports",
+      "when": "After B1",
+      "open": {
+        "label": "Open Reports",
+        "href": "REPORTS"
+      },
+      "checks": [
+        "Overview: open jobs by urgency and by category, total cost of completed jobs, Requests by urgency",
+        "Requests: Emergency rows at the top, newest first within each urgency",
+        "Open jobs: Kanban grouped by status",
+        "Counts: Properties 351, Maintenance jobs 183, Tradies 8, Requests 0"
+      ]
+    },
+    {
+      "id": "check",
+      "title": "Triage answer key",
+      "when": "After A1 step 2",
+      "checks": [
+        "Chat A reports npm run check passing every row (no browser check needed)"
+      ]
+    },
+    {
+      "id": "board",
+      "title": "Triage board: the weekend",
+      "when": "After A1 step 3",
+      "open": {
+        "label": "Open Triage board",
+        "href": "/board"
+      },
+      "table": [
+        {
+          "item": "02 gas",
+          "expect": "Emergency, at the top with 06 (newest first, so 06 sits above it). Next step: the after-hours transfer was not answered"
+        },
+        {
+          "item": "06 unit 8 lock",
+          "expect": "Emergency with the Call back flag (eight properties have a unit 8)"
+        },
+        {
+          "item": "05 power points",
+          "expect": "Urgent, existing job J-7050, chase Brightline"
+        },
+        {
+          "item": "01 aircon",
+          "expect": "Routine, repeat fault at HPM-1130"
+        },
+        {
+          "item": "03 + 04 tap",
+          "expect": "04 is a duplicate of 03"
+        },
+        {
+          "item": "07 cat and TV bracket",
+          "expect": "Not maintenance, routed to Grace"
+        },
+        {
+          "item": "08 tradie report",
+          "expect": "Job update J-7302, repeat fault. Details: the 5/18 leak under Things to confirm"
+        }
+      ],
+      "checks": [
+        "All seven rows above look right",
+        "Filters work: urgency, flags, date, property address",
+        "Details are readable and each card says Triaged by Sonnet 5.5"
+      ]
+    },
+    {
+      "id": "jane",
+      "title": "Talk to Jane",
+      "when": "After B2 and A2",
+      "open": {
+        "label": "Open Talk to Jane",
+        "href": "/talk"
+      },
+      "samples": [
+        {
+          "label": "Power points (should match)",
+          "text": "69 Lakeside Court, Toowong. Expect HPM-1207, a new job and a repeat fault: open job J-7050 is the back bedroom, not the kitchen. Say Court, not Crescent."
+        },
+        {
+          "label": "Hot water (no unit number)",
+          "text": "18 Ferndale St, Wilston. Expect a Call back flag: the only property there is unit 4."
+        }
+      ],
+      "note": "Read a sample card on the page aloud. The cards answer Jane's access questions up front, so the call stays short.",
+      "checks": [
+        "Live transcript shows Caller and Jane lines",
+        "Two-sentence summary appears after you hang up",
+        "Within about 20 seconds a Voice card appears on the board, triaged"
+      ]
+    },
+    {
+      "id": "portal",
+      "title": "Portal with a photo",
+      "when": "After A1 step 3",
+      "open": {
+        "label": "Open Portal",
+        "href": "/portal"
+      },
+      "samples": [
+        {
+          "label": "Address",
+          "text": "9 Riverview Tce, Carindale"
+        },
+        {
+          "label": "Description",
+          "text": "Water is pooling under the kitchen sink and the cupboard floor is soaked. It looks like it's coming from the pipe under the basin. It's been getting worse since this morning."
+        }
+      ],
+      "note": "Attach a photo that shows water pooling under a sink. A photo of a dripping tap gets described as a dripping tap.",
+      "checks": [
+        "The Triaging counter runs, then the drafted reply appears",
+        "On the board: Portal card matched to HPM-1013",
+        "Details show the photo description"
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture page",
+      "when": "After A2",
+      "open": {
+        "label": "Open Architecture",
+        "href": "/architecture"
+      },
+      "checks": [
+        "System architecture diagram shows and opens full size when clicked",
+        "Skills map tab shows the AI Adoption Series skills mapped to Harbourline"
+      ]
+    },
+    {
+      "id": "desktop",
+      "title": "Claude Desktop (MCP server)",
+      "when": "After B3",
+      "note": "Quit Claude Desktop from the system tray (closing the window is not enough), then reopen it. Then set the Harbourline tools to Always allow (Connectors or the tools menu, or pick Always allow on the first prompt), so the demo isn't interrupted by permission prompts. Ask each question in a new chat.",
+      "questions": [
+        {
+          "q": "Find the Harbourline property at unit 8. Which one is it?",
+          "expect": "All 8 unit 8 properties listed, no guess, a call back needed"
+        },
+        {
+          "q": "What's still open at 69 Lakeside Ct, Toowong, and how long has it been open? Draft a chase to the tradie.",
+          "expect": "J-7050, Urgent, booked with Brightline Electrical since 1 August, plus a chase email"
+        },
+        {
+          "q": "Click + beside the message box, choose Harbourline, then weekly_summary, and send it. Don't type this.",
+          "action": true,
+          "expect": "Open jobs by property manager, repeat faults, tradie follow-ups, questions to check with the RTA",
+          "slow": true
+        }
+      ],
+      "checks": [
+        "All three questions answered as expected"
+      ]
+    }
+  ],
+  "demo": {
+    "provenance": {
+      "title": "Brought vs built (say this if a judge asks)",
+      "brought": [
+        "A written spec (CLAUDE.md), the triage procedure and QLD repair rules",
+        "Sample data from my course scenario pack: rent roll, maintenance log, tradies, 8 weekend requests",
+        "Jane, the Vapi voice agent (voice and prompt set up before)",
+        "Accounts and keys: Anthropic, Airtable, Make, Vapi"
+      ],
+      "built": [
+        "The whole app from an empty folder: portal, triage agent, board, Talk to Jane, Architecture, Guide",
+        "The Airtable base, data load and Interface",
+        "The Make.com automation, and Jane's link into it",
+        "The MCP server for Claude Desktop"
+      ],
+      "say": "I brought a written spec, the sample data and a voice agent I'd already set up. Everything else was built tonight from an empty folder: the app, the triage agent, the Airtable base, the Make automation and the MCP server. Five prompts, two Claude Code tabs."
+    },
+    "before": [
+      "Board open with the 8 weekend requests triaged, plus one Voice card from an earlier call",
+      "That call's transcript and summary on screen in a Talk to Jane tab (or a screenshot)",
+      "Portal open in another tab, the sink photo ready",
+      "Backup video one click away"
+    ],
+    "steps": [
+      {
+        "time": "0:00",
+        "page": "Triage board",
+        "href": "/board",
+        "do": "Set up the problem.",
+        "say": "Harbourline is a seven-person property manager in Brisbane. Maintenance comes in by phone, web form, email and text. Every Monday someone sorts it by hand, and the gas leak gets buried under a dripping tap."
+      },
+      {
+        "time": "0:20",
+        "page": "Triage board",
+        "href": "/board",
+        "do": "Walk the weekend's cards from the top.",
+        "say": "Here's the weekend, triaged. The two emergencies are at the top. The gas leak: it noticed the after-hours transfer was never answered. It caught a duplicate across two channels, a repeat aircon fault, and it refused to guess which unit 8 a text meant."
+      },
+      {
+        "time": "0:40",
+        "page": "Reports",
+        "href": "REPORTS",
+        "do": "Flash the Airtable interface.",
+        "say": "Airtable is the source of truth, with a live report on top.",
+        "optional": true
+      },
+      {
+        "time": "0:45",
+        "page": "Talk to Jane",
+        "href": "/talk",
+        "do": "Show the earlier call's transcript and summary. No live call.",
+        "say": "Tenants can also just talk to Jane. A call takes about two minutes, so here's one from earlier."
+      },
+      {
+        "time": "1:00",
+        "page": "Triage board",
+        "href": "/board",
+        "do": "Point to that call's Voice card.",
+        "say": "Make.com dropped it into the same Airtable base, triaged like everything else."
+      },
+      {
+        "time": "1:10",
+        "page": "Portal",
+        "href": "/portal",
+        "do": "Live: copy the sample address and description, attach the photo, submit.",
+        "say": "Now a new request, live, with a photo."
+      },
+      {
+        "time": "1:35",
+        "page": "Triage board",
+        "href": "/board",
+        "do": "The new card lands, triaged, with a drafted reply.",
+        "say": "Nothing is sent. A property manager approves every message."
+      },
+      {
+        "time": "1:45",
+        "page": "Close",
+        "do": "Stop on the board.",
+        "say": "Built tonight with Opus 5.5 in Claude Code. It runs on Sonnet, so a small agency could afford it every day."
+      }
+    ],
+    "ifTime": "If a judge asks how it fits together: open Architecture (system diagram, then the skills map). If time allows: Claude Desktop question 1 or 2. Skip the weekly summary (over a minute).",
+    "fallback": "If the live submit fails: \"Here's one I submitted ten minutes ago\" and point to it, or play the backup video.",
+    "freeze": [
+      "Run npm run check",
+      "Delete live test rows",
+      "One clean voice call (Power points card)",
+      "One clean portal request (sample card and sink photo)",
+      "Record the backup video",
+      "Read the Brought vs built card aloud once",
+      "Rehearse twice"
+    ]
+  }
+}

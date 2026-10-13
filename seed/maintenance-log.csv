@@ -1,0 +1,184 @@
+job_id,property_id,suburb,reported,category,urgency,tradie,status,days_to_complete,cost
+J-7001,HPM-1273,Coorparoo,2026-10-20,Electrical,Urgent,Brightline Electrical,Completed,3,550
+J-7002,HPM-1185,Kangaroo Point,2026-09-02,Hot water,Routine,Coastline Plumbing,Awaiting quote,,
+J-7003,HPM-1164,New Farm,2026-10-22,Air conditioning,Routine,Coolair Services,Awaiting quote,,
+J-7004,HPM-1200,Coorparoo,2026-07-14,Electrical,Routine,Brightline Electrical,Completed,14,521
+J-7005,HPM-1130,Indooroopilly,2026-09-13,Air conditioning,Routine,Coolair Services,Completed,18,1029
+J-7006,HPM-1089,Ashgrove,2026-08-16,Air conditioning,Routine,Coolair Services,Completed,6,1209
+J-7007,HPM-1226,Coorparoo,2026-08-23,Electrical,Routine,Brightline Electrical,Completed,19,613
+J-7008,HPM-1130,Indooroopilly,2026-08-05,Hot water,Urgent,Coastline Plumbing,Completed,3,2190
+J-7009,HPM-1228,New Farm,2026-07-27,Appliance,Urgent,Metro Appliance Repairs,Completed,2,310
+J-7010,HPM-1133,Indooroopilly,2026-10-04,Plumbing,Routine,Coastline Plumbing,Completed,19,770
+J-7011,HPM-1070,Indooroopilly,2026-07-14,Hot water,Routine,Coastline Plumbing,Completed,1,1049
+J-7012,HPM-1047,Carindale,2026-08-23,Pest control,Routine,Greenshield Pest,Completed,12,331
+J-7013,HPM-1257,Annerley,2026-09-25,Garden,Routine,Tidy Yards,Booked,,
+J-7014,HPM-1037,New Farm,2026-08-06,Plumbing,Urgent,Coastline Plumbing,Completed,1,498
+J-7015,HPM-1004,Carindale,2026-08-31,Plumbing,Routine,Coastline Plumbing,Completed,1,694
+J-7016,HPM-1274,Chermside,2026-10-25,Hot water,Routine,Coastline Plumbing,Completed,5,760
+J-7017,HPM-1188,Nundah,2026-10-07,Electrical,Urgent,Brightline Electrical,Awaiting quote,,
+J-7018,HPM-1055,Carindale,2026-07-19,Appliance,Routine,Metro Appliance Repairs,Completed,18,369
+J-7019,HPM-1243,Indooroopilly,2026-09-26,Plumbing,Routine,Coastline Plumbing,Completed,13,217
+J-7020,HPM-1216,Bulimba,2026-09-02,Air conditioning,Routine,Coolair Services,Completed,12,1303
+J-7021,HPM-1217,Paddington,2026-10-13,Plumbing,Routine,Coastline Plumbing,Completed,3,209
+J-7022,HPM-1244,Annerley,2026-08-24,Pest control,Urgent,Greenshield Pest,Awaiting quote,,
+J-7023,HPM-1181,Toowong,2026-08-01,Pest control,Routine,Greenshield Pest,Awaiting quote,,
+J-7024,HPM-1209,Wilston,2026-09-13,Locks and keys,Routine,Secure Locksmiths,Completed,21,204
+J-7025,HPM-1068,Chermside,2026-10-09,Pest control,Routine,Greenshield Pest,Completed,16,377
+J-7026,HPM-1242,Indooroopilly,2026-06-30,Air conditioning,Routine,Coolair Services,Completed,5,267
+J-7027,HPM-1087,Kangaroo Point,2026-10-21,Garden,Routine,Tidy Yards,Completed,9,322
+J-7028,HPM-1350,Indooroopilly,2026-10-16,Electrical,Routine,Brightline Electrical,Completed,12,564
+J-7029,HPM-1193,Annerley,2026-10-25,Appliance,Routine,Metro Appliance Repairs,Completed,12,397
+J-7030,HPM-1046,Wilston,2026-10-07,Hot water,Routine,Coastline Plumbing,Completed,18,1084
+J-7031,HPM-1121,Toowong,2026-10-09,Appliance,Routine,Metro Appliance Repairs,Completed,13,578
+J-7032,HPM-1241,Nundah,2026-08-04,Plumbing,Routine,Coastline Plumbing,Awaiting quote,,
+J-7033,HPM-1245,Toowong,2026-08-17,General,Urgent,Handyfix,Completed,0,154
+J-7034,HPM-1026,Carindale,2026-10-23,Locks and keys,Routine,Secure Locksmiths,Completed,19,
+J-7035,HPM-1282,Nundah,2026-07-25,Appliance,Urgent,Metro Appliance Repairs,Completed,3,534
+J-7036,HPM-1221,Wilston,2026-09-26,Air conditioning,Routine,Coolair Services,Completed,3,951
+J-7037,HPM-1281,Woolloongabba,2026-07-02,Locks and keys,Routine,Secure Locksmiths,Completed,5,212
+J-7038,HPM-1318,Annerley,2026-10-23,Air conditioning,Routine,Coolair Services,Completed,11,1034
+J-7039,HPM-1231,New Farm,2026-10-23,Pest control,Routine,Greenshield Pest,Completed,11,305
+J-7040,HPM-1171,Kangaroo Point,2026-09-29,Electrical,Urgent,Brightline Electrical,Completed,0,671
+J-7041,HPM-1243,Indooroopilly,2026-10-15,Appliance,Urgent,Metro Appliance Repairs,Awaiting quote,,
+J-7042,HPM-1094,Carindale,2026-10-22,Appliance,Urgent,Metro Appliance Repairs,Completed,0,532
+J-7043,HPM-1130,Indooroopilly,2026-08-05,Garden,Routine,Tidy Yards,Completed,14,104
+J-7044,HPM-1308,Carindale,2026-09-19,Appliance,Routine,Metro Appliance Repairs,Completed,18,102
+J-7045,HPM-1328,Bulimba,2026-08-04,Locks and keys,Routine,Secure Locksmiths,Completed,8,113
+J-7046,HPM-1268,Woolloongabba,2026-10-08,Pest control,Routine,Greenshield Pest,Completed,17,196
+J-7047,HPM-1242,Indooroopilly,2026-07-24,Locks and keys,Urgent,Secure Locksmiths,Completed,2,116
+J-7048,HPM-1335,Ashgrove,2026-09-07,Pest control,Routine,Greenshield Pest,Completed,19,339
+J-7049,HPM-1345,Indooroopilly,2026-06-28,Appliance,Routine,Metro Appliance Repairs,Completed,7,442
+J-7050,HPM-1207,Toowong,2026-08-01,Electrical,Urgent,Brightline Electrical,Booked,,
+J-7051,HPM-1324,Bulimba,2026-07-13,Plumbing,Routine,Coastline Plumbing,Booked,,
+J-7052,HPM-1254,Nundah,2026-08-19,General,Routine,Handyfix,Completed,17,256
+J-7053,HPM-1022,Paddington,2026-09-10,Garden,Routine,Tidy Yards,Completed,5,328
+J-7054,HPM-1133,Indooroopilly,2026-07-06,Plumbing,Routine,Coastline Plumbing,Completed,14,817
+J-7055,HPM-1132,Toowong,2026-08-09,Locks and keys,Urgent,Secure Locksmiths,Completed,0,156
+J-7056,HPM-1003,Paddington,2026-09-12,Pest control,Routine,Greenshield Pest,Completed,7,177
+J-7057,HPM-1099,Paddington,2026-10-22,Appliance,Routine,Metro Appliance Repairs,Completed,6,614
+J-7058,HPM-1091,Indooroopilly,2026-08-31,Appliance,Routine,Metro Appliance Repairs,Completed,20,548
+J-7059,HPM-1239,Chermside,2026-08-10,Pest control,Routine,Greenshield Pest,Completed,20,207
+J-7060,HPM-1070,Indooroopilly,2026-09-28,Electrical,Routine,Brightline Electrical,Completed,16,149
+J-7061,HPM-1182,Indooroopilly,2026-09-06,Garden,Routine,Tidy Yards,Completed,19,218
+J-7062,HPM-1169,Kangaroo Point,2026-08-04,Electrical,Routine,Brightline Electrical,Awaiting quote,,
+J-7063,HPM-1285,Carindale,2026-08-07,Pest control,Routine,Greenshield Pest,Completed,11,373
+J-7064,HPM-1281,Woolloongabba,2026-10-03,Air conditioning,Routine,Coolair Services,Completed,9,1134
+J-7065,HPM-1016,Indooroopilly,2026-08-26,Locks and keys,Routine,Secure Locksmiths,Completed,3,109
+J-7066,HPM-1030,New Farm,2026-08-16,Hot water,Routine,Coastline Plumbing,Completed,4,702
+J-7067,HPM-1348,Coorparoo,2026-08-03,Locks and keys,Routine,Secure Locksmiths,Completed,5,142
+J-7068,HPM-1064,Woolloongabba,2026-08-04,Garden,Urgent,Tidy Yards,Completed,2,245
+J-7069,HPM-1042,Woolloongabba,2026-09-12,Air conditioning,Routine,Coolair Services,Completed,5,1105
+J-7070,HPM-1245,Toowong,2026-09-21,Locks and keys,Routine,Secure Locksmiths,Completed,14,257
+J-7071,HPM-1331,Paddington,2026-08-12,Plumbing,Routine,Coastline Plumbing,Booked,,
+J-7072,HPM-1082,Toowong,2026-10-13,Air conditioning,Routine,Coolair Services,Completed,7,1190
+J-7073,HPM-1037,New Farm,2026-09-08,Garden,Routine,Tidy Yards,Completed,4,316
+J-7074,HPM-1061,New Farm,2026-09-19,Hot water,Routine,Coastline Plumbing,Completed,12,1419
+J-7075,HPM-1237,Bulimba,2026-08-04,Plumbing,Routine,Coastline Plumbing,Completed,21,236
+J-7076,HPM-1184,Bulimba,2026-08-12,Hot water,Routine,Coastline Plumbing,Completed,18,460
+J-7077,HPM-1046,Wilston,2026-10-05,Plumbing,Routine,Coastline Plumbing,Awaiting landlord approval,,
+J-7078,HPM-1266,Coorparoo,2026-09-14,General,Routine,Handyfix,Completed,17,486
+J-7079,HPM-1201,Coorparoo,2026-10-05,Pest control,Routine,Greenshield Pest,Completed,16,165
+J-7080,HPM-1060,Nundah,2026-10-17,Hot water,Routine,Coastline Plumbing,Completed,9,1987
+J-7081,HPM-1163,New Farm,2026-09-10,Appliance,Routine,Metro Appliance Repairs,Completed,10,483
+J-7082,HPM-1335,Ashgrove,2026-10-19,Locks and keys,Urgent,Secure Locksmiths,Completed,2,161
+J-7083,HPM-1261,Ashgrove,2026-09-02,Locks and keys,Routine,Secure Locksmiths,Completed,5,155
+J-7084,HPM-1253,Indooroopilly,2026-09-26,Pest control,Routine,Greenshield Pest,Completed,16,324
+J-7085,HPM-1122,New Farm,2026-10-13,Pest control,Routine,Greenshield Pest,Completed,19,411
+J-7086,HPM-1041,New Farm,2026-10-06,Garden,Routine,Tidy Yards,Booked,,
+J-7087,HPM-1219,Woolloongabba,2026-10-10,Electrical,Routine,Brightline Electrical,Completed,19,690
+J-7088,HPM-1053,Chermside,2026-09-30,General,Routine,Handyfix,Completed,9,456
+J-7089,HPM-1099,Paddington,2026-07-04,Electrical,Routine,Brightline Electrical,Completed,14,408
+J-7090,HPM-1188,Nundah,2026-10-18,Plumbing,Routine,Coastline Plumbing,Booked,,
+J-7091,HPM-1291,New Farm,2026-07-13,Pest control,Routine,Greenshield Pest,Completed,1,340
+J-7092,HPM-1076,Ashgrove,2026-09-14,Plumbing,Routine,Coastline Plumbing,Completed,13,790
+J-7093,HPM-1139,Nundah,2026-10-20,Pest control,Routine,Greenshield Pest,Completed,15,365
+J-7094,HPM-1123,Paddington,2026-09-10,Appliance,Routine,Metro Appliance Repairs,Completed,7,420
+J-7095,HPM-1329,Annerley,2026-07-14,Electrical,Routine,Brightline Electrical,Awaiting landlord approval,,
+J-7096,HPM-1088,Chermside,2026-07-16,Locks and keys,Routine,Secure Locksmiths,Completed,5,168
+J-7097,HPM-1244,Annerley,2026-10-13,Garden,Urgent,Tidy Yards,Completed,1,133
+J-7098,HPM-1181,Toowong,2026-07-10,Plumbing,Routine,Coastline Plumbing,Completed,9,331
+J-7099,HPM-1134,Coorparoo,2026-08-19,General,Routine,Handyfix,Completed,21,206
+J-7100,HPM-1248,Chermside,2026-08-25,Pest control,Urgent,Greenshield Pest,Booked,,
+J-7101,HPM-1119,Annerley,2026-08-01,Air conditioning,Routine,Coolair Services,Completed,5,390
+J-7102,HPM-1180,Woolloongabba,2026-10-09,Garden,Routine,Tidy Yards,Completed,12,161
+J-7103,HPM-1028,Woolloongabba,2026-10-18,General,Routine,Handyfix,Completed,16,132
+J-7104,HPM-1340,Chermside,2026-09-18,Locks and keys,Routine,Secure Locksmiths,Completed,11,150
+J-7105,HPM-1240,Kangaroo Point,2026-07-24,Plumbing,Routine,Coastline Plumbing,Completed,5,698
+J-7106,HPM-1144,Nundah,2026-08-21,Appliance,Routine,Metro Appliance Repairs,Completed,5,596
+J-7107,HPM-1320,Bulimba,2026-09-15,General,Urgent,Handyfix,Completed,1,150
+J-7108,HPM-1029,Annerley,2026-09-22,Electrical,Urgent,Brightline Electrical,Completed,3,648
+J-7109,HPM-1183,Nundah,2026-08-29,Plumbing,Routine,Coastline Plumbing,Awaiting landlord approval,,
+J-7110,HPM-1001,Kangaroo Point,2026-09-28,Plumbing,Routine,Coastline Plumbing,Completed,16,803
+J-7111,HPM-1331,Paddington,2026-10-21,Electrical,Routine,Brightline Electrical,Completed,1,223
+J-7112,HPM-1040,Wilston,2026-08-05,Electrical,Routine,Brightline Electrical,Completed,3,561
+J-7113,HPM-1090,Carindale,2026-10-12,Appliance,Routine,Metro Appliance Repairs,Completed,9,261
+J-7114,HPM-1242,Indooroopilly,2026-09-12,Appliance,Routine,Metro Appliance Repairs,Completed,4,585
+J-7115,HPM-1285,Carindale,2026-09-01,Electrical,Routine,Brightline Electrical,Completed,15,132
+J-7116,HPM-1149,Toowong,2026-08-10,Plumbing,Routine,Coastline Plumbing,Completed,10,473
+J-7117,HPM-1028,Woolloongabba,2026-09-06,Pest control,Urgent,Greenshield Pest,Completed,0,197
+J-7118,HPM-1331,Paddington,2026-08-24,General,Routine,Handyfix,Completed,13,251
+J-7119,HPM-1101,Coorparoo,2026-08-01,Locks and keys,Routine,Secure Locksmiths,Completed,8,255
+J-7120,HPM-1222,Toowong,2026-09-10,Appliance,Routine,Metro Appliance Repairs,Completed,10,285
+J-7121,HPM-1186,Indooroopilly,2026-08-18,Garden,Routine,Tidy Yards,Completed,9,202
+J-7122,HPM-1198,Indooroopilly,2026-10-12,Locks and keys,Routine,Secure Locksmiths,Awaiting landlord approval,,
+J-7123,HPM-1209,Wilston,2026-10-05,Appliance,Routine,Metro Appliance Repairs,Awaiting quote,,
+J-7124,HPM-1229,Ashgrove,2026-10-02,Electrical,Routine,Brightline Electrical,Completed,18,208
+J-7125,HPM-1185,Kangaroo Point,2026-06-29,Air conditioning,Routine,Coolair Services,Completed,17,1003
+J-7126,HPM-1228,New Farm,2026-10-24,Plumbing,Routine,Coastline Plumbing,Completed,10,733
+J-7127,HPM-1008,Paddington,2026-06-28,General,Routine,Handyfix,Completed,5,463
+J-7128,HPM-1093,Paddington,2026-07-27,Pest control,Routine,Greenshield Pest,Awaiting quote,,
+J-7129,HPM-1320,Bulimba,2026-09-11,Garden,Routine,Tidy Yards,Completed,15,123
+J-7130,HPM-1290,Carindale,2026-07-31,Plumbing,Routine,Coastline Plumbing,Completed,11,741
+J-7131,HPM-1136,Chermside,2026-08-03,Electrical,Routine,Brightline Electrical,Completed,3,171
+J-7132,HPM-1292,Coorparoo,2026-08-28,Pest control,Routine,Greenshield Pest,Awaiting quote,,
+J-7133,HPM-1319,Bulimba,2026-08-27,Appliance,Routine,Metro Appliance Repairs,Completed,6,615
+J-7134,HPM-1122,New Farm,2026-09-17,General,Routine,Handyfix,Completed,6,72
+J-7135,HPM-1205,Chermside,2026-10-07,Appliance,Routine,Metro Appliance Repairs,Completed,21,140
+J-7136,HPM-1113,Nundah,2026-07-12,Air conditioning,Routine,Coolair Services,Completed,13,635
+J-7137,HPM-1218,Paddington,2026-10-04,Locks and keys,Routine,Secure Locksmiths,Completed,17,183
+J-7138,HPM-1046,Wilston,2026-08-14,Air conditioning,Routine,Coolair Services,Completed,14,1082
+J-7139,HPM-1045,Coorparoo,2026-08-18,Hot water,Routine,Coastline Plumbing,Completed,6,1009
+J-7140,HPM-1117,Indooroopilly,2026-09-06,Electrical,Routine,Brightline Electrical,Awaiting quote,,
+J-7141,HPM-1273,Coorparoo,2026-09-15,Electrical,Urgent,Brightline Electrical,Completed,2,389
+J-7142,HPM-1132,Toowong,2026-08-17,Plumbing,Routine,Coastline Plumbing,Completed,20,187
+J-7143,HPM-1140,Indooroopilly,2026-09-19,Locks and keys,Routine,Secure Locksmiths,Completed,18,85
+J-7144,HPM-1009,Nundah,2026-07-29,Hot water,Routine,Coastline Plumbing,Completed,5,445
+J-7145,HPM-1124,Indooroopilly,2026-09-19,Hot water,Routine,Coastline Plumbing,Completed,5,1953
+J-7146,HPM-1025,Kangaroo Point,2026-07-03,Appliance,Routine,Metro Appliance Repairs,Completed,11,548
+J-7147,HPM-1300,Kangaroo Point,2026-08-16,Pest control,Routine,Greenshield Pest,Completed,17,314
+J-7148,HPM-1262,West End,2026-08-26,Hot water,Urgent,Coastline Plumbing,Completed,3,2068
+J-7149,HPM-1044,Wilston,2026-10-17,Hot water,Routine,Coastline Plumbing,Completed,19,250
+J-7150,HPM-1012,Annerley,2026-10-14,Appliance,Routine,Metro Appliance Repairs,Awaiting landlord approval,,
+J-7151,HPM-1240,Kangaroo Point,2026-08-06,Plumbing,Routine,Coastline Plumbing,Completed,2,212
+J-7152,HPM-1320,Bulimba,2026-07-29,Appliance,Routine,Metro Appliance Repairs,Completed,8,469
+J-7153,HPM-1233,Bulimba,2026-09-28,Air conditioning,Routine,Coolair Services,Awaiting landlord approval,,
+J-7154,HPM-1242,Indooroopilly,2026-08-21,Electrical,Urgent,Brightline Electrical,Completed,2,132
+J-7155,HPM-1280,Kangaroo Point,2026-09-06,Locks and keys,Routine,Secure Locksmiths,Completed,13,161
+J-7156,HPM-1003,Paddington,2026-09-02,Plumbing,Routine,Coastline Plumbing,Completed,11,438
+J-7157,HPM-1253,Indooroopilly,2026-09-11,Appliance,Routine,Metro Appliance Repairs,Booked,,
+J-7158,HPM-1288,New Farm,2026-10-08,Pest control,Routine,Greenshield Pest,Completed,14,218
+J-7159,HPM-1199,West End,2026-07-20,General,Routine,Handyfix,Completed,18,378
+J-7160,HPM-1010,Wilston,2026-10-07,Garden,Routine,Tidy Yards,Completed,8,208
+J-7161,HPM-1072,Paddington,2026-07-10,Hot water,Routine,Coastline Plumbing,Completed,5,2288
+J-7162,HPM-1279,Wilston,2026-07-15,Plumbing,Urgent,Coastline Plumbing,Completed,3,206
+J-7163,HPM-1171,Kangaroo Point,2026-08-12,Appliance,Routine,Metro Appliance Repairs,Completed,17,194
+J-7164,HPM-1110,West End,2026-09-23,Air conditioning,Urgent,Coolair Services,Completed,1,239
+J-7165,HPM-1346,Woolloongabba,2026-07-12,Plumbing,Routine,Coastline Plumbing,Completed,9,735
+J-7166,HPM-1121,Toowong,2026-07-26,Plumbing,Routine,Coastline Plumbing,Completed,8,266
+J-7167,HPM-1309,Coorparoo,2026-09-12,Locks and keys,Routine,Secure Locksmiths,Completed,14,173
+J-7168,HPM-1230,Woolloongabba,2026-07-04,General,Routine,Handyfix,Completed,2,228
+J-7169,HPM-1026,Carindale,2026-08-19,Plumbing,Routine,Coastline Plumbing,Completed,13,571
+J-7170,HPM-1062,Bulimba,2026-10-21,Appliance,Routine,Metro Appliance Repairs,Completed,9,649
+J-7171,HPM-1130,Indooroopilly,2026-07-21,Air conditioning,Urgent,Coolair Services,Completed,1,186
+J-7172,HPM-1154,Indooroopilly,2026-07-02,General,Routine,Handyfix,Completed,5,405
+J-7173,HPM-1055,Carindale,2026-08-07,Pest control,Urgent,Greenshield Pest,Completed,1,369
+J-7174,HPM-1014,West End,2026-09-28,Electrical,Routine,Brightline Electrical,Completed,5,677
+J-7175,HPM-1237,Bulimba,2026-08-01,Plumbing,Routine,Coastline Plumbing,Completed,5,165
+J-7176,HPM-1279,Wilston,2026-09-26,Garden,Urgent,Tidy Yards,Completed,2,98
+J-7177,HPM-1219,Woolloongabba,2026-09-25,Locks and keys,Routine,Secure Locksmiths,Completed,11,257
+J-7178,HPM-1211,Chermside,2026-07-02,Appliance,Routine,Metro Appliance Repairs,Completed,1,220
+J-7179,HPM-1211,Chermside,2026-08-27,Electrical,Routine,Brightline Electrical,Completed,9,645
+J-7180,HPM-1246,Wilston,2026-09-11,Pest control,Routine,Greenshield Pest,Completed,2,369
+J-7300,HPM-1011,Wilston,2026-06-30,Hot water,Urgent,Coastline Plumbing,Completed,2,583
+J-7301,HPM-1011,Wilston,2026-08-23,Hot water,Urgent,Coastline Plumbing,Completed,2,509
+J-7302,HPM-1011,Wilston,2026-10-23,Hot water,Urgent,Coastline Plumbing,Booked,,

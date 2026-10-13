@@ -1,0 +1,236 @@
+{
+  "videos": [
+    {
+      "id": "short",
+      "tab": "Competition video (2 min)",
+      "title": "Competition video for the judges",
+      "length": "About 2 minutes 15 seconds",
+      "audience": "The judges: what was built tonight and why it matters, in one pass.",
+      "before": [
+        "Run npm run check, then make one clean voice call (Power points card) and leave its transcript and summary on the Talk to Jane tab",
+        "Tabs open in this order: Architecture, Triage board, Talk to Jane, Portal",
+        "Claude Desktop open on a new chat, Harbourline tools set to Always allow",
+        "sink-leak-photo.jpg ready to attach",
+        "Screen recorder framed on the browser only, notifications off"
+      ],
+      "steps": [
+        {
+          "time": "0:00",
+          "page": "Architecture",
+          "href": "/architecture",
+          "do": "Start on the System architecture diagram. Point left to right: channels (including the voice agent), Airtable, the triage agent, the board, then Claude Desktop.",
+          "say": "Harbourline is a seven-person property manager in Brisbane. Maintenance comes in by phone, now answered by our voice agent, and by web form, email and text. Every Monday someone sorts it by hand, so the gas leak gets buried under a dripping tap. Tonight I built this: every channel lands in one Airtable base, Claude triages each request, and a person approves every message. Property managers can also ask about all of it in Claude Desktop, through MCP.",
+          "task": "Explain the problem and the architecture"
+        },
+        {
+          "time": "0:25",
+          "page": "Triage board",
+          "href": "/board",
+          "do": "Walk the weekend's cards from the top. Open the gas card's Details for a second.",
+          "say": "Here's the weekend, triaged. The gas leak is at the top, and it noticed the after-hours transfer was never answered. It caught a duplicate across two channels, a repeat aircon fault, and it refused to guess which unit 8 a text meant.",
+          "task": "Review the weekend's triaged jobs"
+        },
+        {
+          "time": "0:50",
+          "page": "Talk to Jane",
+          "href": "/talk",
+          "do": "Show the earlier call's transcript and two-sentence summary.",
+          "say": "Tenants can also just ring Jane, our voice agent. Here's a call from earlier, with Claude's summary.",
+          "task": "Discuss maintenance job with voice agent"
+        },
+        {
+          "time": "1:15",
+          "page": "Triage board",
+          "href": "/board",
+          "do": "Point to that call's Voice card: Urgent, Repeat fault, HPM-1207.",
+          "say": "Make.com dropped the call into the same Airtable base, and it was triaged like everything else: matched to the property, and flagged as a repeat electrical fault.",
+          "task": "Review job details on the board"
+        },
+        {
+          "time": "1:25",
+          "page": "Portal",
+          "href": "/portal",
+          "do": "Live: copy the sample address and description, attach the sink photo, submit. Let the counter run.",
+          "say": "Now a new request, live, with a photo. The photo goes only to Claude and is never stored.",
+          "task": "Log maintenance job through portal"
+        },
+        {
+          "time": "1:50",
+          "page": "Triage board",
+          "href": "/board",
+          "do": "The new Portal card lands. Open Details: photo description, tenant reply, work order.",
+          "say": "Matched to the property, urgency set from the photo, reply and work order drafted. Nothing is sent: a property manager approves every message.",
+          "task": "Review job details on the board"
+        },
+        {
+          "time": "2:00",
+          "page": "Claude Desktop",
+          "task": "Query the jobs through MCP in Claude Desktop",
+          "do": "In a new chat (Harbourline tools set to Always allow), type: Find the property at unit 8. Which one is it? Let the table of eight properties appear, then stop.",
+          "say": "The same data is in Claude Desktop through an MCP server, and it still won't guess which unit 8. Built tonight with Opus 5.5 in Claude Code, from an empty folder, and it runs on Sonnet, so a small agency could afford it every day."
+        }
+      ],
+      "fallback": "If the live submit fails, cut to a portal request submitted a few minutes earlier, or re-record that segment."
+    },
+    {
+      "id": "long",
+      "tab": "Long video (about 12 min)",
+      "title": "Platform walkthrough for Mason",
+      "length": "About 12 minutes",
+      "audience": "Mason, seeing the platform for the first time: what each part does, how they connect, and how it was built. Talk it through; the points below are prompts, not a script.",
+      "before": [
+        "Run npm run check so the board has the 8 weekend requests",
+        "Tabs open: Architecture, Reports (Airtable), Triage board, Talk to Jane, Portal, Guide",
+        "A terminal in the practice folder for npm run check",
+        "Claude Desktop open with a new chat, Harbourline tools set to Always allow",
+        "sink-leak-photo.jpg ready; microphone allowed; quiet room"
+      ],
+      "steps": [
+        {
+          "time": "0:00",
+          "page": "Architecture",
+          "href": "/architecture",
+          "do": "Open on the System architecture diagram.",
+          "points": [
+            "The problem: a seven-person Brisbane agency, requests by phone (now answered by Jane, our voice agent), web form, email and text, sorted by hand every Monday",
+            "The idea: every channel lands in one place, Claude triages, a person approves",
+            "Everything is fictional: Harbourline, the properties, the tenants (references only, like T-5010)"
+          ],
+          "section": "Overview",
+          "task": "The problem"
+        },
+        {
+          "time": "1:00",
+          "page": "Architecture",
+          "href": "/architecture",
+          "do": "Trace the diagram left to right.",
+          "points": [
+            "Channels: the tenant portal, Jane the voice agent (Vapi) on the phone line, plus email, text and tradie reports",
+            "Make.com takes Jane's end-of-call report and writes a Requests row",
+            "Airtable is the source of truth: Properties (351), Maintenance jobs (183), Tradies (8), Requests",
+            "The triage agent: Sonnet 5.5 at low effort, about 10 seconds a request",
+            "The board for the property managers, and Claude Desktop: through the MCP server, property managers can ask about all of it (properties, jobs, tradies, requests) in plain English"
+          ],
+          "section": "Overview",
+          "task": "The architecture"
+        },
+        {
+          "time": "2:30",
+          "page": "Architecture (Skills map)",
+          "href": "/architecture",
+          "do": "Switch to the Skills map tab.",
+          "points": [
+            "How the AI Adoption Series skills map onto Harbourline",
+            "The triage procedure is the same written procedure as the course's maintenance-triage skill"
+          ],
+          "section": "Overview",
+          "task": "The skills map"
+        },
+        {
+          "time": "3:15",
+          "page": "Reports (Airtable)",
+          "href": "REPORTS",
+          "do": "Show the Interface, then the base's tables.",
+          "points": [
+            "Overview: open jobs by urgency and category, cost of completed jobs, Requests by urgency",
+            "The data is loaded exactly as given, including deliberate errors (HPM-1201 appears twice)",
+            "Requests is where every channel lands, with status New until triaged"
+          ],
+          "section": "Overview",
+          "task": "Airtable interface and tables"
+        },
+        {
+          "time": "4:30",
+          "page": "Triage board",
+          "href": "/board",
+          "do": "Walk the weekend's cards from the top, opening Details on two or three.",
+          "points": [
+            "Emergency first, newest first within each urgency; times always in Brisbane time",
+            "02 gas: Emergency, and it noticed the after-hours transfer was not answered; no gasfitter on the list, so it says so rather than inventing one",
+            "06 unit 8: Emergency because the door can't be locked, but eight properties have a unit 8, so it asks for a call back",
+            "05 power points: an existing job, J-7050, open since 1 August; chase Brightline; the rent threat goes to things to confirm",
+            "03 and 04: the same tap by web form and by phone, caught as a duplicate",
+            "07: not maintenance, routed to Grace; 08: a tradie report that updates J-7302 and flags the leak from the unit above",
+            "Details: tradie, things to confirm, tenant reply, work order or landlord approval, original request; Triaged by Sonnet 5.5"
+          ],
+          "section": "Triage board",
+          "task": "Review the weekend's jobs, card by card"
+        },
+        {
+          "time": "6:30",
+          "page": "Triage board",
+          "href": "/board",
+          "do": "Use the filters: urgency, flags (Call back, Repeat fault), date, property address.",
+          "points": [
+            "Showing X of Y requests updates as you filter",
+            "The address box searches both what the tenant typed and the matched property's address"
+          ],
+          "section": "Triage board",
+          "task": "Filter the board"
+        },
+        {
+          "time": "7:00",
+          "page": "Terminal",
+          "do": "Run npm run check and let it finish (about 90 seconds; talk over it).",
+          "points": [
+            "How triage works: code finds the property and its history, code applies the hard rules, one Claude call drafts the triage, code saves it",
+            "Hard rules in code: never guess a property, only tradies from the list, over 500 dollars needs the landlord's approval",
+            "The answer-key check: the 8 weekend requests reloaded and asserted in code, no AI judging AI; 23 checks"
+          ],
+          "section": "Triage board",
+          "task": "How triage works: the answer-key check"
+        },
+        {
+          "time": "8:30",
+          "page": "Talk to Jane",
+          "href": "/talk",
+          "do": "Live call: read the Power points sample card, answer Jane's questions, hang up. Then switch to the board.",
+          "points": [
+            "Live transcript as you speak; a two-sentence summary from Claude at the end, display only",
+            "Make.com writes the call to Airtable; the board picks up the New row and triages it within about 20 seconds",
+            "Expect Urgent, a repeat fault, HPM-1207 - 69 Lakeside Ct, Toowong"
+          ],
+          "section": "Live channels",
+          "task": "Discuss maintenance job with voice agent"
+        },
+        {
+          "time": "10:00",
+          "page": "Portal",
+          "href": "/portal",
+          "do": "Submit the sink sample with the photo, then open the new card on the board.",
+          "points": [
+            "The photo is shrunk in the browser, sent only to Claude, never stored; only a one-line description is saved",
+            "The reply is a draft: nothing goes to the tenant until a person approves it"
+          ],
+          "section": "Live channels",
+          "task": "Log maintenance job through portal"
+        },
+        {
+          "time": "11:00",
+          "page": "Claude Desktop",
+          "do": "Ask: Find the property at unit 8. Which one is it? Then: What's still open at 69 Lakeside Ct, Toowong? Draft a chase to the tradie.",
+          "points": [
+            "The MCP server gives Claude Desktop the same data: find a property, job history, open jobs, tradies",
+            "It never guesses a property, and it flags tenancy-law points to check with the RTA rather than stating them"
+          ],
+          "section": "Claude Desktop",
+          "task": "Ask Harbourline questions in Claude Desktop"
+        },
+        {
+          "time": "12:00",
+          "page": "Guide",
+          "href": "/guide",
+          "do": "Show the Demo tab's Brought vs built card.",
+          "points": [
+            "Brought: the written spec, the sample data, Jane's voice agent, the accounts",
+            "Built from an empty folder with Opus 5.5 in Claude Code: two tabs, five prompts, about 40 minutes",
+            "Runs on Sonnet at low effort, so the running cost suits a small agency"
+          ],
+          "section": "Close",
+          "task": "Brought vs built"
+        }
+      ],
+      "fallback": "If the live call or portal misbehaves, keep recording and show the earlier Voice or Portal card instead; it is a walkthrough, not a performance."
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+property_id,address,suburb,type,bedrooms,weekly_rent,status,lease_start,lease_end,tenant_ref,landlord_ref,property_manager,days_in_arrears,arrears_amount
+HPM-1001,113 Ferndale St,Kangaroo Point,Townhouse,3,735,Leased,2025-12-02,2027-06-02,T-5000,L-3169,Grace Liu,0,0
+HPM-1002,18/16 Lakeside Ct,West End,Unit,1,475,Leased,2025-02-04,2027-08-05,T-5001,L-3083,Dev Patel,0,0
+HPM-1003,110 Grove Ave,Paddington,Townhouse,2,695,Leased,2025-09-29,2027-09-29,T-5002,L-3182,Grace Liu,0,0
+HPM-1004,23/140 Church St,Carindale,Unit,2,575,Leased,2026-02-14,2027-02-14,T-5003,L-3203,Grace Liu,0,0
+HPM-1005,37 Church St,Coorparoo,House,3,805,Leased,2025-12-17,2026-12-17,T-5004,L-3045,Dev Patel,22,2530.0
+HPM-1006,170 Ferndale St,Annerley,Townhouse,2,665,Leased,2025-10-13,2026-10-13,T-5005,L-3124,Mia Thompson,0,0
+HPM-1007,18/72 Wattle St,Bulimba,Unit,1,455,Leased,2025-08-14,2027-08-14,T-5006,L-3102,Dev Patel,3,195.0
+HPM-1008,6/162 Jacaranda Cres,Paddington,Unit,2,560,Leased,2025-05-29,2026-11-27,T-5007,L-3248,Dev Patel,0,0
+HPM-1009,69 Hilltop Ave,Nundah,House,4,865,Leased,2024-12-11,2026-12-11,T-5008,L-3051,Dev Patel,0,0
+HPM-1010,139 Ocean View Dr,Wilston,House,3,895,Leased,2025-02-07,2027-02-07,T-5009,L-3080,Dev Patel,0,0
+HPM-1011,4/18 Ferndale St,Wilston,Unit,2,900,Leased,2025-08-24,2027-08-24,T-5010,L-3097,Dev Patel,0,0
+HPM-1012,21/4 Grove Ave,Annerley,Unit,2,525,Leased,2025-09-26,2027-09-26,T-5011,L-3245,Mia Thompson,35,2625.0
+HPM-1013,9 Riverview Tce,Carindale,House,3,895,Leased,2025-04-16,2027-04-16,T-5012,L-3001,Dev Patel,0,0
+HPM-1014,85 Main St,West End,Townhouse,3,710,Leased,2025-03-31,2027-03-31,T-5013,L-3037,Mia Thompson,0,0
+HPM-1015,12/176 Main St,Ashgrove,Unit,2,535,Leased,2025-05-29,2026-11-27,T-5014,L-3176,Mia Thompson,0,0
+HPM-1016,11/170 Main St,Indooroopilly,Unit,1,470,Leased,2026-02-07,2027-02-07,T-5015,L-3160,Mia Thompson,0,0
+HPM-1017,5/115 Lakeside Ct,Coorparoo,Unit,2,585,Leased,2025-10-03,2027-10-03,T-5016,L-3065,Mia Thompson,0,0
+HPM-1018,11/38 Ocean View Dr,Wilston,Unit,2,525,Leased,2025-06-28,2027-06-28,T-5017,L-3063,Grace Liu,0,0
+HPM-1019,4/175 Main St,Ashgrove,Unit,2,540,Leased,2026-09-04,2027-09-04,T-5018,L-3279,Mia Thompson,0,0
+HPM-1020,18/66 Hilltop Ave,Toowong,Unit,2,495,Vacant,,,,L-3212,Dev Patel,0,0
+HPM-1021,70 Wattle St,New Farm,Townhouse,3,685,Leased,2026-08-19,2027-08-19,T-5020,L-3107,Dev Patel,0,0
+HPM-1022,4 Riverview Tce,Paddington,Townhouse,3,765,Leased,2025-09-13,2027-09-13,T-5021,L-3168,Dev Patel,0,0
+HPM-1023,135 Church St,Coorparoo,House,5,1000,Leased,2026-04-05,2027-04-05,T-5022,L-3286,Dev Patel,0,0
+HPM-1024,16/170 Church St,Toowong,Unit,1,440,Leased,2026-03-21,2027-03-21,T-5023,L-3175,Grace Liu,0,0
+HPM-1025,1/125 Wattle St,Kangaroo Point,Unit,2,550,Leased,2025-10-27,2027-04-27,T-5024,L-3238,Mia Thompson,0,0
+HPM-1026,24/167 Church St,Carindale,Unit,2,530,Leased,2026-02-15,2027-02-15,T-5025,L-3272,Mia Thompson,8,605.71
+HPM-1027,171 Wattle St,Toowong,Townhouse,3,695,Leased,2025-04-23,2026-10-22,T-5026,L-3092,Dev Patel,0,0
+HPM-1028,7/9 Main St,Woolloongabba,Unit,2,555,Leased,2025-04-11,2026-10-10,T-5027,L-3107,Mia Thompson,15,1189.29
+HPM-1029,22/85 Wattle St,Annerley,Unit,2,515,Leased,2025-12-23,2026-12-23,T-5028,L-3200,Mia Thompson,0,0
+HPM-1030,5/170 Grove Ave,New Farm,Unit,3,565,Leased,2025-01-13,2027-01-13,T-5029,L-3017,Mia Thompson,0,0
+HPM-1031,23/15 Hilltop Ave,Annerley,Unit,2,525,Leased,2025-03-22,2027-03-22,T-5030,L-3078,Grace Liu,0,0
+HPM-1032,15/176 Lakeside Ct,Indooroopilly,Unit,2,495,Leased,2025-11-23,2026-11-23,T-5031,L-3079,Grace Liu,0,0
+HPM-1033,182 Lakeside Ct,Bulimba,House,5,920,Leased,2025-06-01,2027-06-01,T-5032,L-3131,Dev Patel,0,0
+HPM-1034,6/63 Station Rd,Annerley,Unit,1,460,Leased,2026-06-26,2027-06-26,T-5033,L-3253,Dev Patel,3,197.14
+HPM-1035,10/163 Lakeside Ct,Chermside,Unit,1,525,Leased,2025-07-20,2027-07-20,T-5034,L-3286,Dev Patel,0,0
+HPM-1036,31 Hilltop Ave,Woolloongabba,Townhouse,2,645,Leased,2026-07-08,2027-07-08,T-5035,L-3221,Dev Patel,0,0
+HPM-1037,24/95 Jacaranda Cres,New Farm,Unit,2,510,Leased,2024-12-02,2027-06-02,T-5036,L-3244,Mia Thompson,0,0
+HPM-1038,15/98 Grove Ave,Annerley,Unit,2,505,Leased,2026-06-08,2027-06-08,T-5037,L-3024,Grace Liu,22,1587.14
+HPM-1039,141 Ocean View Dr,Bulimba,House,4,955,Leased,2026-01-09,2027-07-10,T-5038,L-3271,Mia Thompson,0,0
+HPM-1040,29 Jacaranda Cres,Wilston,House,3,815,Leased,2025-01-30,2027-01-30,T-5039,L-3233,Mia Thompson,0,0
+HPM-1041,67 Ferndale St,New Farm,Townhouse,2,670,Leased,2026-05-12,2027-05-12,T-5040,L-3036,Grace Liu,0,0
+HPM-1042,121 Lakeside Ct,Woolloongabba,Townhouse,2,720,Leased,2026-04-23,2027-04-23,T-5041,L-3204,Dev Patel,0,0
+HPM-1043,19/123 Grove Ave,Indooroopilly,Unit,2,550,Leased,2026-01-14,2027-01-14,T-5042,L-3247,Dev Patel,0,0
+HPM-1044,17/82 Park Lane,Wilston,Unit,2,585,Leased,2026-08-23,2027-08-23,T-5043,L-3221,Grace Liu,0,0
+HPM-1045,208 Station Rd,Coorparoo,House,4,935,Leased,2025-04-12,2027-04-12,T-5044,L-3038,Mia Thompson,0,0
+HPM-1046,7/15 Park Lane,Wilston,Unit,2,505,Vacant,,,,L-3086,Mia Thompson,0,0
+HPM-1047,18/31 Main St,Carindale,Unit,2,510,Leased,2026-08-20,2027-08-20,T-5046,L-3018,Dev Patel,3,218.57
+HPM-1048,21/168 Main St,New Farm,Unit,3,625,Leased,2026-08-22,2027-02-20,T-5047,L-3149,Dev Patel,22,1964.29
+HPM-1049,9/20 Lakeside Ct,Nundah,Unit,3,570,Leased,2026-09-19,2027-09-19,T-5048,L-3279,Mia Thompson,0,0
+HPM-1050,18/102 Main St,West End,Unit,3,615,Leased,2026-01-26,2027-01-26,T-5049,L-3124,Dev Patel,0,0
+HPM-1051,18/53 Ocean View Dr,Wilston,Unit,2,500,Leased,2025-07-02,2027-07-02,T-5050,L-3172,Dev Patel,0,0
+HPM-1052,19/134 Station Rd,Bulimba,Unit,3,605,Leased,2026-06-24,2027-06-24,T-5051,L-3242,Dev Patel,0,0
+HPM-1053,24 Lakeside Ct,Chermside,House,4,880,Leased,2025-05-08,2027-05-08,T-5052,L-3214,Dev Patel,3,377.14
+HPM-1054,64 Park Lane,Coorparoo,Townhouse,3,695,Leased,2025-01-29,2027-01-29,T-5053,L-3091,Dev Patel,0,0
+HPM-1055,16/42 Grove Ave,Carindale,Unit,2,535,Leased,2026-03-31,2027-03-31,T-5054,L-3244,Mia Thompson,0,0
+HPM-1056,20/77 Hilltop Ave,Indooroopilly,Unit,1,500,Leased,2025-11-12,2026-11-12,T-5055,L-3002,Mia Thompson,0,0
+HPM-1057,15/115 Lakeside Ct,Bulimba,Unit,1,475,Leased,2025-06-29,2026-12-28,T-5056,L-3152,Mia Thompson,22,1492.86
+HPM-1058,18/9 Station Rd,Woolloongabba,Unit,3,4950,Leased,2025-11-27,2027-05-28,T-5057,L-3150,Dev Patel,0,0
+HPM-1059,139 Jacaranda Cres,Woolloongabba,Townhouse,2,650,Leased,2026-06-15,2027-06-15,T-5058,L-3281,Mia Thompson,0,0
+HPM-1060,17/79 Ferndale St,Nundah,Unit,2,580,Leased,2025-12-31,2026-12-31,T-5059,L-3100,Dev Patel,0,0
+HPM-1061,20/80 Lakeside Ct,New Farm,Unit,2,505,Leased,2025-06-28,2026-12-27,T-5060,L-3263,Grace Liu,0,0
+HPM-1062,17/75 Church St,Bulimba,Unit,2,580,Leased,2024-12-21,2027-06-21,T-5061,L-3259,Mia Thompson,15,1242.86
+HPM-1063,12/64 Ocean View Dr,Coorparoo,Unit,2,520,Leased,2026-09-13,2027-09-13,T-5062,L-3193,Dev Patel,0,0
+HPM-1064,6/113 Ocean View Dr,Woolloongabba,Unit,3,575,Leased,2026-02-18,2027-02-18,T-5063,L-3191,Dev Patel,0,0
+HPM-1065,21/27 Jacaranda Cres,Woolloongabba,Unit,1,460,Leased,2025-08-15,2027-08-15,T-5064,L-3164,Grace Liu,0,0
+HPM-1066,21/29 Station Rd,Bulimba,Unit,1,530,Leased,2025-10-12,2026-10-12,T-5065,L-3283,Dev Patel,0,0
+HPM-1067,220 Riverview Tce,Ashgrove,House,3,820,Leased,2026-06-30,2027-06-30,T-5066,L-3281,Dev Patel,0,0
+HPM-1068,17 Main St,Chermside,Townhouse,2,630,Leased,2025-06-09,2027-06-09,T-5067,L-3179,Grace Liu,0,0
+HPM-1069,110 Riverview Tce,Toowong,Townhouse,3,740,Leased,2024-12-10,2026-12-10,T-5068,L-3086,Dev Patel,0,0
+HPM-1070,8/95 Riverview Tce,Indooroopilly,Unit,1,475,Leased,2026-01-05,2027-01-05,T-5069,L-3042,Grace Liu,0,0
+HPM-1071,20/136 Hilltop Ave,Carindale,Unit,2,545,Leased,2025-01-05,2027-07-06,T-5070,L-3214,Mia Thompson,0,0
+HPM-1072,7/153 Main St,Paddington,Unit,2,555,Leased,2025-06-12,2027-06-12,T-5071,L-3183,Dev Patel,8,634.29
+HPM-1073,88 Lakeside Ct,Toowong,Townhouse,3,700,Leased,2025-01-14,2027-01-14,T-5072,L-3062,Dev Patel,0,0
+HPM-1074,212 Jacaranda Cres,Wilston,Townhouse,3,765,Leased,2025-06-11,2027-06-11,T-5073,L-3231,Dev Patel,35,3825.0
+HPM-1075,16/4 Wattle St,Indooroopilly,Unit,2,490,Leased,2025-09-27,2027-09-27,T-5074,L-3238,Dev Patel,0,0
+HPM-1076,9/100 Park Lane,Ashgrove,Unit,1,505,Leased,2025-03-18,2027-03-18,T-5075,L-3131,Dev Patel,0,0
+HPM-1077,20/140 Main St,West End,Unit,1,465,Leased,2026-03-30,2027-03-30,T-5076,L-3274,Grace Liu,8,531.43
+HPM-1078,3/28 Riverview Tce,Coorparoo,Unit,2,505,Leased,2026-06-08,2026-12-07,T-5077,L-3198,Mia Thompson,0,0
+HPM-1079,15/50 Ferndale St,Indooroopilly,Unit,2,585,Leased,2025-12-07,2026-12-07,T-5078,L-3159,Dev Patel,0,0
+HPM-1080,14/124 Main St,Annerley,Unit,3,620,Leased,2025-08-16,2027-08-16,T-5079,L-3075,Dev Patel,22,1948.57
+HPM-1081,40 Station Rd,Toowong,Townhouse,2,685,Leased,2026-03-14,2027-03-14,T-5080,L-3081,Mia Thompson,0,0
+HPM-1082,21 Ferndale St,Toowong,Townhouse,3,700,Leased,2026-03-13,2027-03-13,T-5081,L-3047,Dev Patel,0,0
+HPM-1083,3/178 Station Rd,Chermside,Unit,1,465,Leased,2026-06-23,2027-06-23,T-5082,L-3285,Mia Thompson,3,199.29
+HPM-1084,21/122 Wattle St,Woolloongabba,Unit,1,460,Leased,2025-03-10,2027-03-10,T-5083,L-3096,Grace Liu,0,0
+HPM-1085,206 Ocean View Dr,New Farm,Townhouse,3,765,Leased,2025-01-25,2027-01-25,T-5084,L-3284,Dev Patel,3,327.86
+HPM-1086,15/102 Lakeside Ct,West End,Unit,1,495,Leased,2024-12-15,2027-06-15,T-5085,L-3106,Grace Liu,0,0
+HPM-1087,23/14 Riverview Tce,Kangaroo Point,Unit,2,500,Leased,2025-05-24,2027-05-24,T-5086,L-3222,Mia Thompson,0,0
+HPM-1088,11/26 Park Lane,Chermside,Unit,1,505,Leased,2026-09-15,2027-09-15,T-5087,L-3266,Mia Thompson,0,0
+HPM-1089,185 Main St,Ashgrove,Townhouse,3,780,Leased,2025-01-04,2027-01-04,T-5088,L-3250,Grace Liu,0,0
+HPM-1090,90 Jacaranda Cres,Carindale,Townhouse,3,730,Leased,2026-03-04,2027-03-04,T-5089,L-3041,Grace Liu,0,0
+HPM-1091,170 Main St,Indooroopilly,Townhouse,3,770,Leased,2026-08-04,2027-08-04,T-5090,L-3061,Mia Thompson,0,0
+HPM-1092,56 Main St,Annerley,Townhouse,3,720,Leased,2026-05-29,2027-05-29,T-5091,L-3004,Dev Patel,0,0
+HPM-1093,7/156 Park Lane,Paddington,Unit,3,590,Leased,2026-04-03,2027-04-03,T-5092,L-3157,Grace Liu,0,0
+HPM-1094,57 Grove Ave,Carindale,Townhouse,3,755,Leased,2025-07-11,2027-07-11,T-5093,L-3250,Mia Thompson,3,323.57
+HPM-1095,6/22 Main St,Paddington,Unit,2,585,Leased,2025-10-23,2026-10-23,T-5094,L-3112,Dev Patel,0,0
+HPM-1096,186 Park Lane,Nundah,Townhouse,3,735,Leased,2025-06-06,2026-12-05,T-5095,L-3046,Grace Liu,0,0
+HPM-1097,192 Wattle St,Indooroopilly,Townhouse,3,775,Leased,2026-07-20,2027-07-20,T-5096,L-3046,Dev Patel,0,0
+HPM-1098,19/83 Station Rd,Kangaroo Point,Unit,3,635,Leased,2026-08-01,2027-08-01,T-5097,L-3138,Mia Thompson,0,0
+HPM-1099,24/21 Ocean View Dr,Paddington,Unit,2,525,Leased,2025-05-22,2027-05-22,T-5098,L-3136,Grace Liu,0,0
+HPM-1100,3 Lakeside Ct,Carindale,Townhouse,2,680,Leased,2026-06-23,2027-06-23,T-5099,L-3000,Mia Thompson,0,0
+HPM-1101,16/15 Ferndale St,Coorparoo,Unit,1,515,Vacant,,,,L-3055,Mia Thompson,0,0
+HPM-1102,2/53 Ferndale St,Kangaroo Point,Unit,1,455,Leased,2025-05-10,2027-05-10,T-5101,L-3268,Dev Patel,0,0
+HPM-1103,21 Riverview Tce,Kangaroo Point,House,5,1005,Leased,2026-06-20,2026-12-19,T-5102,L-3205,Dev Patel,0,0
+HPM-1104,10/3 Church St,Woolloongabba,Unit,1,460,Leased,2026-08-28,2027-08-28,T-5103,L-3001,Mia Thompson,0,0
+HPM-1105,88 Wattle St,Paddington,House,4,885,Leased,2025-06-30,2026-12-29,T-5104,L-3125,Dev Patel,0,0
+HPM-1106,156 Main St,Chermside,House,4,915,Leased,2026-08-14,2027-08-14,T-5105,L-3010,Mia Thompson,0,0
+HPM-1107,190 Station Rd,Woolloongabba,House,3,880,Leased,2025-01-01,2027-01-01,T-5106,L-3251,Mia Thompson,0,0
+HPM-1108,19/154 Grove Ave,West End,Unit,1,500,Leased,2025-07-24,2027-07-24,T-5107,L-3149,Grace Liu,0,0
+HPM-1109,110 Jacaranda Cres,Woolloongabba,House,4,920,Leased,2025-10-13,2026-10-13,T-5108,L-3168,Dev Patel,0,0
+HPM-1110,3/37 Park Lane,West End,Unit,2,510,Leased,2025-11-06,2026-11-06,T-5109,L-3233,Dev Patel,0,0
+HPM-1111,103 Hilltop Ave,Carindale,House,3,855,Leased,2025-12-29,2026-12-29,T-5110,L-3087,Mia Thompson,3,366.43
+HPM-1112,24/81 Hilltop Ave,Annerley,Unit,3,545,Leased,2025-04-04,2027-04-04,T-5111,L-3079,Mia Thompson,0,0
+HPM-1113,22/154 Church St,Nundah,Unit,2,510,Leased,2025-04-10,2027-04-10,T-5112,L-3186,Dev Patel,0,0
+HPM-1114,4/82 Riverview Tce,Chermside,Unit,1,505,Leased,2025-04-11,2027-04-11,T-5113,L-3274,Mia Thompson,0,0
+HPM-1115,12/113 Lakeside Ct,Woolloongabba,Unit,1,530,Leased,2024-12-25,2026-12-25,T-5114,L-3240,Dev Patel,0,0
+HPM-1116,19/105 Church St,West End,Unit,1,525,Leased,2026-08-24,2027-08-24,T-5115,L-3089,Dev Patel,0,0
+HPM-1117,13/178 Grove Ave,Indooroopilly,Unit,2,495,Leased,2025-06-17,2027-06-17,T-5116,L-3171,Grace Liu,0,0
+HPM-1118,7/94 Riverview Tce,New Farm,Unit,1,470,Leased,2025-08-18,2027-02-16,T-5117,L-3027,Dev Patel,0,0
+HPM-1119,9/59 Station Rd,Annerley,Unit,3,635,Leased,2025-05-29,2027-05-29,T-5118,L-3187,Mia Thompson,0,0
+HPM-1120,1/28 Wattle St,Kangaroo Point,Unit,2,495,Leased,2025-01-26,2027-07-27,T-5119,L-3111,Dev Patel,0,0
+HPM-1121,12/42 Ferndale St,Toowong,Unit,1,515,Leased,2026-09-01,2027-09-01,T-5120,L-3060,Mia Thompson,-3,0
+HPM-1122,10/31 Grove Ave,New Farm,Unit,2,575,Leased,2026-01-13,2027-07-14,T-5121,L-3270,Dev Patel,5,410.71
+HPM-1123,24/31 Lakeside Ct,Paddington,Unit,1,530,Leased,2024-12-14,2026-12-14,T-5122,L-3094,Mia Thompson,3,227.14
+HPM-1124,18/120 Main St,Indooroopilly,Unit,1,520,Leased,2025-09-05,2027-09-05,T-5123,L-3023,Dev Patel,0,0
+HPM-1125,22/40 Park Lane,Paddington,Unit,1,455,Leased,2025-12-07,2027-06-07,T-5124,L-3228,Grace Liu,0,0
+HPM-1126,15/105 Jacaranda Cres,New Farm,Unit,1,515,Leased,2024-12-22,2027-06-22,T-5125,L-3141,Grace Liu,0,0
+HPM-1127,89 Ferndale St,Kangaroo Point,Townhouse,3,715,Leased,2025-01-07,2027-01-07,T-5126,L-3201,Mia Thompson,0,0
+HPM-1128,7/132 Main St,Ashgrove,Unit,2,540,Leased,2026-08-08,2027-08-08,T-5127,L-3085,Grace Liu,0,0
+HPM-1129,10/104 Grove Ave,Kangaroo Point,Unit,2,490,Leased,2024-12-27,2026-12-27,T-5128,L-3022,Mia Thompson,0,0
+HPM-1130,213 Jacaranda Cres,Indooroopilly,House,3,845,Leased,2025-07-26,2027-07-26,T-5129,L-3002,Dev Patel,0,0
+HPM-1131,16/145 Ocean View Dr,Paddington,Unit,2,540,Leased,2025-09-29,2027-09-29,T-5130,L-3022,Mia Thompson,0,0
+HPM-1132,106 Grove Ave,Toowong,Townhouse,3,705,Leased,2026-03-25,2027-03-25,T-5131,L-3127,Mia Thompson,8,805.71
+HPM-1133,203 Main St,Indooroopilly,Townhouse,3,695,Leased,2026-06-03,2027-06-03,T-5132,L-3011,Dev Patel,0,0
+HPM-1134,14/159 Hilltop Ave,Coorparoo,Unit,2,490,Leased,2025-05-09,2027-05-09,T-5133,L-3266,Dev Patel,5,350.0
+HPM-1135,9/70 Station Rd,West End,Unit,1,455,Leased,2026-08-05,2027-08-05,T-5134,L-3239,Grace Liu,3,195.0
+HPM-1136,123 Main St,Chermside,Townhouse,3,720,Leased,2026-02-23,2027-02-23,T-5135,L-3081,Mia Thompson,0,0
+HPM-1137,22/102 Main St,Paddington,Unit,1,460,Leased,2025-12-04,2026-12-04,T-5136,L-3179,Dev Patel,0,0
+HPM-1138,188 Jacaranda Cres,Nundah,House,5,990,Leased,2026-08-21,2027-08-21,T-5137,L-3202,Mia Thompson,0,0
+HPM-1139,6/146 Park Lane,Nundah,Unit,2,550,Leased,2026-06-27,2027-06-27,T-5138,L-3250,Grace Liu,0,0
+HPM-1140,10/45 Wattle St,Indooroopilly,Unit,3,625,Leased,2024-12-31,2026-12-31,T-5139,L-3164,Mia Thompson,0,0
+HPM-1141,14/10 Lakeside Ct,Indooroopilly,Unit,2,500,Leased,2025-05-15,2027-05-15,T-5140,L-3132,Mia Thompson,0,0
+HPM-1142,19/112 Wattle St,Bulimba,Unit,1,480,Leased,2025-01-08,2027-07-09,T-5141,L-3272,Dev Patel,0,0
+HPM-1143,10/141 Riverview Tce,New Farm,Unit,3,605,Leased,2024-12-19,2026-12-19,T-5142,L-3057,Mia Thompson,0,0
+HPM-1144,7/120 Ocean View Dr,Nundah,Unit,1,490,Leased,2026-08-14,2027-08-14,T-5143,L-3036,Grace Liu,0,0
+HPM-1145,17 Riverview Tce,Coorparoo,Townhouse,3,740,Vacant,,,,L-3172,Dev Patel,0,0
+HPM-1146,91 Lakeside Ct,Annerley,Townhouse,3,735,Leased,2026-07-22,2027-07-22,T-5145,L-3126,Grace Liu,0,0
+HPM-1147,220 Church St,Coorparoo,Townhouse,2,635,Leased,2026-04-04,2027-04-04,T-5146,L-3084,Grace Liu,0,0
+HPM-1148,21 Park Lane,Paddington,House,5,995,Leased,2026-07-28,2027-07-28,T-5147,L-3113,Dev Patel,0,0
+HPM-1149,4/108 Ocean View Dr,Toowong,Unit,1,515,Leased,2025-02-24,2027-02-24,T-5148,L-3147,Dev Patel,3,220.71
+HPM-1150,17/13 Lakeside Ct,Indooroopilly,Unit,2,580,Leased,2025-04-24,2027-04-24,T-5149,L-3189,Grace Liu,5,414.29
+HPM-1151,14/21 Ocean View Dr,Wilston,Unit,2,585,Leased,2025-10-26,2026-10-26,T-5150,L-3215,Mia Thompson,0,0
+HPM-1152,107 Grove Ave,Nundah,Townhouse,2,680,Leased,2026-07-05,2027-07-05,T-5151,L-3146,Mia Thompson,0,0
+HPM-1153,15/158 Riverview Tce,Ashgrove,Unit,3,615,Leased,2026-05-26,2027-05-26,T-5152,L-3139,Dev Patel,0,0
+HPM-1154,18/134 Church St,Indooroopilly,Unit,1,495,Leased,2025-06-22,2027-06-22,T-5153,L-3037,Dev Patel,8,565.71
+HPM-1155,21/168 Park Lane,New Farm,Unit,2,500,Leased,2025-04-12,2027-04-12,T-5154,L-3218,Dev Patel,3,214.29
+HPM-1156,94 Park Lane,Nundah,Townhouse,3,700,Leased,2025-12-24,2026-12-24,T-5155,L-3206,Dev Patel,3,300.0
+HPM-1157,30 Main St,Paddington,House,3,900,Leased,2025-06-26,2026-12-25,T-5156,L-3143,Dev Patel,0,0
+HPM-1158,130 Park Lane,Carindale,Townhouse,3,705,Leased,2026-04-29,2026-10-28,T-5157,L-3172,Mia Thompson,0,0
+HPM-1159,22/115 Ocean View Dr,West End,Unit,2,510,Leased,2025-09-15,2027-03-16,T-5158,L-3248,Dev Patel,0,0
+HPM-1160,4/127 Grove Ave,Chermside,Unit,2,520,Leased,2025-02-18,2027-02-18,T-5159,L-3276,Mia Thompson,0,0
+HPM-1161,97 Wattle St,Wilston,House,4,920,Vacant,,,,L-3149,Dev Patel,0,0
+HPM-1162,50 Riverview Tce,Indooroopilly,Townhouse,3,745,Leased,2026-07-28,2027-07-28,T-5161,L-3095,Mia Thompson,0,0
+HPM-1163,14/164 Park Lane,New Farm,Unit,2,500,Leased,2025-05-14,2027-05-14,T-5162,L-3102,Dev Patel,0,0
+HPM-1164,11/118 Wattle St,New Farm,Unit,1,490,Leased,2026-04-05,2027-10-04,T-5163,L-3160,Dev Patel,0,0
+HPM-1165,1/30 Jacaranda Cres,Coorparoo,Unit,2,555,Leased,2025-10-16,2026-10-16,T-5164,L-3091,Dev Patel,0,0
+HPM-1166,73 Wattle St,Wilston,House,5,940,Leased,2026-05-06,2027-05-06,T-5165,L-3063,Grace Liu,8,1074.29
+HPM-1167,117 Station Rd,Indooroopilly,House,4,875,Leased,2026-05-28,2027-05-28,T-5166,L-3207,Grace Liu,0,0
+HPM-1168,6/71 Wattle St,Paddington,Unit,3,555,Leased,2025-11-16,2027-05-17,T-5167,L-3281,Dev Patel,0,0
+HPM-1169,205 Ferndale St,Kangaroo Point,House,3,835,Leased,2026-04-02,2027-04-02,T-5168,L-3114,Grace Liu,8,954.29
+HPM-1170,54 Riverview Tce,Kangaroo Point,Townhouse,3,705,Leased,2025-04-12,2027-04-12,T-5169,L-3108,Mia Thompson,8,805.71
+HPM-1171,20/87 Main St,Kangaroo Point,Unit,2,585,Leased,2026-02-27,2027-08-28,T-5170,L-3149,Dev Patel,0,0
+HPM-1172,12/179 Hilltop Ave,New Farm,Unit,2,540,Leased,2026-04-06,2027-10-05,T-5171,L-3152,Dev Patel,0,0
+HPM-1173,88 Ocean View Dr,Woolloongabba,Townhouse,3,695,Leased,2025-08-25,2027-08-25,T-5172,L-3183,Mia Thompson,0,0
+HPM-1174,39 Ocean View Dr,Bulimba,House,3,825,Leased,2025-05-31,2026-11-29,T-5173,L-3203,Mia Thompson,0,0
+HPM-1175,8/15 Ferndale St,Bulimba,Unit,2,490,Leased,2025-10-30,2026-10-30,T-5174,L-3018,Dev Patel,0,0
+HPM-1176,9/135 Ocean View Dr,Carindale,Unit,2,535,Leased,2025-10-25,2026-10-25,T-5175,L-3118,Mia Thompson,0,0
+HPM-1177,17/45 Station Rd,Woolloongabba,Unit,1,525,Leased,2025-10-10,2026-10-10,T-5176,L-3257,Dev Patel,0,0
+HPM-1178,38 Main St,Toowong,Townhouse,2,705,Leased,2026-09-23,2027-09-23,T-5177,L-3166,Grace Liu,0,0
+HPM-1179,3/155 Grove Ave,Toowong,Unit,2,520,Leased,2025-12-31,2026-12-31,T-5178,L-3184,Dev Patel,0,0
+HPM-1180,13 Lakeside Ct,Woolloongabba,Townhouse,3,705,Leased,2025-01-24,2027-07-25,T-5179,L-3208,Dev Patel,0,0
+HPM-1181,14/132 Ferndale St,Toowong,Unit,1,490,Leased,2026-02-22,2027-02-22,T-5180,L-3252,Mia Thompson,0,0
+HPM-1182,24/171 Main St,Indooroopilly,Unit,2,585,Leased,2026-06-02,2026-12-01,T-5181,L-3058,Dev Patel,0,0
+HPM-1183,15/11 Lakeside Ct,Nundah,Unit,1,525,Leased,2026-03-21,2027-03-21,T-5182,L-3241,Grace Liu,0,0
+HPM-1184,5/109 Park Lane,Bulimba,Unit,2,495,Leased,2025-03-25,2027-03-25,T-5183,L-3142,Dev Patel,0,0
+HPM-1185,7/32 Ferndale St,Kangaroo Point,Unit,2,545,Vacant,,,,L-3052,Grace Liu,0,0
+HPM-1186,11/40 Riverview Tce,Indooroopilly,Unit,2,575,Leased,2026-05-10,2027-05-10,T-5185,L-3173,Grace Liu,0,0
+HPM-1187,18/175 Lakeside Ct,West End,Unit,2,575,Vacant,,,,L-3268,Mia Thompson,0,0
+HPM-1188,152 Grove Ave,Nundah,House,5,1015,Leased,2025-02-13,2027-02-13,T-5187,L-3014,Dev Patel,3,435.0
+HPM-1189,9 Jacaranda Cres,New Farm,House,3,880,Leased,2026-06-21,2027-06-21,T-5188,L-3061,Grace Liu,0,0
+HPM-1190,8/129 Jacaranda Cres,Carindale,Unit,2,530,Leased,2025-12-26,2027-06-26,T-5189,L-3060,Grace Liu,3,227.14
+HPM-1191,13/82 Lakeside Ct,Coorparoo,Unit,2,580,Leased,2026-07-25,2027-07-25,T-5190,L-3214,Dev Patel,0,0
+HPM-1192,119 Park Lane,West End,House,3,860,Leased,2025-03-14,2027-03-14,T-5191,L-3168,Mia Thompson,0,0
+HPM-1193,61 Jacaranda Cres,Annerley,House,3,830,Leased,2024-12-17,2026-12-17,T-5192,L-3199,Mia Thompson,0,0
+HPM-1194,131 Station Rd,Woolloongabba,Townhouse,2,660,Leased,2025-08-19,2027-08-19,T-5193,L-3050,Grace Liu,0,0
+HPM-1195,4/97 Station Rd,Paddington,Unit,1,475,Leased,2026-09-19,2027-09-19,T-5194,L-3052,Grace Liu,0,0
+HPM-1196,22/53 Church St,Nundah,Unit,2,550,Leased,2025-04-30,2027-04-30,T-5195,L-3043,Grace Liu,0,0
+HPM-1197,12/91 Church St,Toowong,Unit,2,500,Leased,2026-03-19,2027-09-17,T-5196,L-3219,Dev Patel,0,0
+HPM-1198,2/170 Hilltop Ave,Indooroopilly,Unit,2,505,Leased,2025-07-28,2027-01-26,T-5197,L-3199,Grace Liu,0,0
+HPM-1199,158 Main St,West End,House,4,885,Leased,2025-07-25,2027-07-25,T-5198,L-3193,Dev Patel,8,1011.43
+HPM-1200,22/73 Ferndale St,Coorparoo,Unit,2,545,Leased,2025-12-22,2026-12-22,T-5199,L-3107,Dev Patel,0,0
+HPM-1201,190 Church St,Coorparoo,Townhouse,3,720,Leased,2025-01-09,2027-01-09,T-5200,L-3005,Grace Liu,0,0
+HPM-1202,18/43 Jacaranda Cres,Wilston,Unit,2,530,Leased,2024-12-05,2027-06-05,T-5201,L-3176,Mia Thompson,0,0
+HPM-1203,40 Wattle St,Paddington,House,3,880,Leased,2025-05-07,2026-11-05,T-5202,L-3051,Dev Patel,0,0
+HPM-1204,23/154 Ferndale St,Kangaroo Point,Unit,1,465,Leased,2025-03-28,2027-09-26,T-5203,L-3241,Dev Patel,0,0
+HPM-1205,20/173 Grove Ave,Chermside,Unit,2,580,Leased,2026-01-29,2027-01-29,T-5204,L-3054,Mia Thompson,3,248.57
+HPM-1206,21/8 Main St,Carindale,Unit,3,635,Leased,2026-03-26,2027-03-26,T-5205,L-3258,Mia Thompson,0,0
+HPM-1207,69 Lakeside Ct,Toowong,Townhouse,3,760,Leased,2026-05-15,2027-05-15,T-5206,L-3065,Dev Patel,3,325.71
+HPM-1208,19/114 Jacaranda Cres,Bulimba,Unit,3,625,Leased,2026-01-06,2027-07-07,T-5207,L-3022,Dev Patel,0,0
+HPM-1209,7/155 Grove Ave,Wilston,Unit,2,500,Leased,2025-06-30,2027-06-30,T-5208,L-3173,Dev Patel,8,571.43
+HPM-1210,8/85 Hilltop Ave,Kangaroo Point,Unit,1,455,Leased,2026-07-09,2027-01-07,T-5209,L-3244,Grace Liu,0,0
+HPM-1211,21/118 Wattle St,Chermside,Unit,2,495,Leased,2025-10-01,2027-10-01,T-5210,L-3157,Dev Patel,0,0
+HPM-1212,7/36 Ferndale St,Coorparoo,Unit,2,495,Leased,2026-07-13,2027-07-13,T-5211,L-3105,Dev Patel,0,0
+HPM-1213,6/138 Lakeside Ct,Chermside,Unit,2,555,Leased,2026-07-05,2027-07-05,T-5212,L-3088,Mia Thompson,3,237.86
+HPM-1214,10/52 Station Rd,Chermside,Unit,2,515,Leased,2026-07-19,2027-07-19,T-5213,L-3203,Dev Patel,0,0
+HPM-1215,100 Jacaranda Cres,West End,Townhouse,2,650,Leased,2026-07-04,2027-07-04,T-5214,L-3075,Dev Patel,0,0
+HPM-1216,35 Wattle St,Bulimba,Townhouse,3,755,Leased,2024-12-17,2026-12-17,T-5215,L-3010,Dev Patel,0,0
+HPM-1217,14/92 Lakeside Ct,Paddington,Unit,3,575,Leased,2025-08-03,2027-08-03,T-5216,L-3128,Grace Liu,0,0
+HPM-1218,6/13 Station Rd,Paddington,Unit,1,445,Leased,2026-05-25,2027-05-25,T-5217,L-3172,Dev Patel,0,0
+HPM-1219,213 Station Rd,Woolloongabba,Townhouse,3,765,Leased,2026-05-10,2027-05-10,T-5218,L-3071,Mia Thompson,3,327.86
+HPM-1220,10/42 Riverview Tce,Ashgrove,Unit,1,455,Leased,2025-02-21,2027-02-21,T-5219,L-3142,Grace Liu,0,0
+HPM-1221,18/64 Lakeside Ct,Wilston,Unit,1,530,Vacant,,,,L-3170,Grace Liu,0,0
+HPM-1222,2/155 Wattle St,Toowong,Unit,2,540,Leased,2026-05-25,2026-11-23,T-5221,L-3073,Grace Liu,0,0
+HPM-1223,164 Wattle St,Kangaroo Point,House,3,905,Leased,2026-06-03,2027-06-03,T-5222,L-3017,Grace Liu,0,0
+HPM-1224,6/175 Riverview Tce,Wilston,Unit,2,515,Leased,2026-06-10,2026-12-09,T-5223,L-3059,Dev Patel,0,0
+HPM-1225,67 Church St,West End,House,4,895,Leased,2025-10-03,2027-10-03,T-5224,L-3169,Grace Liu,0,0
+HPM-1226,10/58 Church St,Coorparoo,Unit,2,495,Leased,2025-01-01,2027-01-01,T-5225,L-3157,Dev Patel,0,0
+HPM-1227,141 Park Lane,Coorparoo,House,3,880,Leased,2026-09-23,2027-09-23,T-5226,L-3065,Mia Thompson,0,0
+HPM-1228,8/88 Lakeside Ct,New Farm,Unit,2,580,Leased,2025-01-30,2027-01-30,T-5227,L-3033,Dev Patel,0,0
+HPM-1229,9/41 Ferndale St,Ashgrove,Unit,2,510,Leased,2026-07-28,2027-07-28,T-5228,L-3103,Mia Thompson,0,0
+HPM-1230,1/87 Station Rd,Woolloongabba,Unit,2,500,Leased,2025-09-19,2027-09-19,T-5229,L-3196,Mia Thompson,3,214.29
+HPM-1231,15/84 Station Rd,New Farm,Unit,1,440,Vacant,,,,L-3255,Mia Thompson,0,0
+HPM-1232,5 Riverview Tce,Chermside,House,3,850,Leased,2026-02-18,2027-02-18,T-5231,L-3068,Dev Patel,8,971.43
+HPM-1233,74 Grove Ave,Bulimba,House,3,820,Leased,2025-11-21,2026-11-21,T-5232,L-3028,Grace Liu,3,351.43
+HPM-1234,1/3 Lakeside Ct,Annerley,Unit,1,520,Leased,2026-06-28,2027-06-28,T-5233,L-3079,Mia Thompson,0,0
+HPM-1235,7/102 Ferndale St,Ashgrove,Unit,3,625,Leased,2025-02-28,2027-02-28,T-5234,L-3194,Grace Liu,0,0
+HPM-1236,180 Jacaranda Cres,Annerley,House,3,840,Leased,2025-01-17,2027-01-17,T-5235,L-3249,Grace Liu,0,0
+HPM-1237,4/12 Main St,Bulimba,Unit,2,550,Leased,2025-02-24,2027-02-24,T-5236,L-3239,Dev Patel,0,0
+HPM-1238,16 Ferndale St,Bulimba,House,4,920,Leased,2025-10-30,2026-10-30,T-5237,L-3281,Dev Patel,0,0
+HPM-1239,15/89 Ferndale St,Chermside,Unit,1,470,Leased,2025-02-15,2027-02-15,T-5238,L-3239,Mia Thompson,8,537.14
+HPM-1240,11/149 Jacaranda Cres,Kangaroo Point,Unit,2,490,Leased,2025-09-23,2027-09-23,T-5239,L-3038,Dev Patel,0,0
+HPM-1241,21/8 Ocean View Dr,Nundah,Unit,3,605,Leased,2025-10-18,2026-10-18,T-5240,L-3174,Mia Thompson,8,691.43
+HPM-1242,96 Park Lane,Indooroopilly,House,5,920,Leased,2026-01-27,2027-07-28,T-5241,L-3077,Mia Thompson,0,0
+HPM-1243,167 Riverview Tce,Indooroopilly,Townhouse,3,700,Leased,2026-06-06,2027-06-06,T-5242,L-3235,Mia Thompson,0,0
+HPM-1244,2/59 Station Rd,Annerley,Unit,2,580,Leased,2026-05-01,2027-05-01,T-5243,L-3218,Dev Patel,0,0
+HPM-1245,16/110 Ocean View Dr,Toowong,Unit,2,535,Leased,2026-03-12,2027-03-12,T-5244,L-3278,Mia Thompson,0,0
+HPM-1246,177 Station Rd,Wilston,Townhouse,3,750,Leased,2025-10-17,2026-10-17,T-5245,L-3129,Dev Patel,0,0
+HPM-1247,13/175 Riverview Tce,Woolloongabba,Unit,3,570,Leased,2025-05-11,2026-11-09,T-5246,L-3052,Mia Thompson,0,0
+HPM-1248,18/133 Park Lane,Chermside,Unit,2,500,Leased,2026-08-10,2027-02-08,T-5247,L-3270,Mia Thompson,0,0
+HPM-1249,17/160 Station Rd,Ashgrove,Unit,3,645,Leased,2025-04-01,2027-04-01,T-5248,L-3092,Dev Patel,0,0
+HPM-1250,19/4 Lakeside Ct,Paddington,Unit,2,505,Leased,2026-08-04,2027-08-04,T-5249,L-3232,Dev Patel,0,0
+HPM-1251,4/61 Park Lane,Bulimba,Unit,2,540,Leased,2026-04-14,2027-04-14,T-5250,L-3111,Dev Patel,0,0
+HPM-1252,148 Jacaranda Cres,Toowong,Townhouse,3,780,Leased,2025-02-09,2027-02-09,T-5251,L-3131,Mia Thompson,0,0
+HPM-1253,195 Ocean View Dr,Indooroopilly,Townhouse,2,675,Leased,2025-10-29,2027-04-29,T-5252,L-3136,Grace Liu,0,0
+HPM-1254,148 Jacaranda Cres,Nundah,Townhouse,2,680,Leased,2026-06-16,2027-06-16,T-5253,L-3195,Dev Patel,0,0
+HPM-1255,54 Wattle St,Woolloongabba,House,4,960,Leased,2026-09-15,2027-03-16,T-5254,L-3158,Mia Thompson,0,0
+HPM-1256,18/14 Ferndale St,Indooroopilly,Unit,1,485,Leased,2026-01-30,2027-01-30,T-5255,L-3159,Mia Thompson,0,0
+HPM-1257,23/137 Riverview Tce,Annerley,Unit,1,505,Leased,2025-07-13,2027-07-13,T-5256,L-3259,Mia Thompson,0,0
+HPM-1258,4/8 Ferndale St,Toowong,Unit,1,490,Leased,2025-12-26,2026-12-26,T-5257,L-3075,Grace Liu,0,0
+HPM-1259,41 Grove Ave,Woolloongabba,House,3,810,Leased,2025-06-04,2027-06-04,T-5258,L-3014,Dev Patel,0,0
+HPM-1260,74 Park Lane,Kangaroo Point,Townhouse,3,685,Leased,2025-02-28,2027-02-28,T-5259,L-3271,Dev Patel,0,0
+HPM-1261,8/29 Ocean View Dr,Ashgrove,Unit,2,540,Leased,2025-12-24,2026-12-24,T-5260,L-3141,Dev Patel,0,0
+HPM-1262,11/79 Park Lane,West End,Unit,3,580,Vacant,,,,L-3095,Dev Patel,0,0
+HPM-1263,1/74 Hilltop Ave,Annerley,Unit,1,435,Leased,2025-09-13,2027-09-13,T-5262,L-3020,Mia Thompson,0,0
+HPM-1264,22/88 Main St,Bulimba,Unit,2,570,Leased,2026-09-12,2027-09-12,T-5263,L-3273,Dev Patel,0,0
+HPM-1265,208 Jacaranda Cres,Chermside,Townhouse,3,770,Leased,2026-01-05,2027-01-05,T-5264,L-3057,Mia Thompson,0,0
+HPM-1266,12/157 Jacaranda Cres,Coorparoo,Unit,3,580,Leased,2026-06-28,2027-06-28,T-5265,L-3013,Grace Liu,0,0
+HPM-1267,2/7 Lakeside Ct,Toowong,Unit,2,570,Leased,2025-01-03,2027-01-03,T-5266,L-3143,Grace Liu,0,0
+HPM-1268,19/90 Main St,Woolloongabba,Unit,2,530,Leased,2025-03-16,2027-03-16,T-5267,L-3128,Mia Thompson,0,0
+HPM-1269,13/63 Park Lane,Chermside,Unit,1,500,Leased,2025-10-27,2026-10-27,T-5268,L-3207,Mia Thompson,0,0
+HPM-1270,208 Park Lane,Ashgrove,Townhouse,3,720,Leased,2026-07-27,2027-07-27,T-5269,L-3262,Mia Thompson,0,0
+HPM-1271,17/174 Grove Ave,New Farm,Unit,1,470,Leased,2026-07-23,2027-07-23,T-5270,L-3108,Grace Liu,0,0
+HPM-1272,8/46 Main St,Ashgrove,Unit,2,570,Leased,2025-05-02,2027-05-02,T-5271,L-3042,Grace Liu,0,0
+HPM-1273,20/134 Lakeside Ct,Coorparoo,Unit,2,590,Leased,2026-01-30,2027-07-31,T-5272,L-3201,Mia Thompson,5,421.43
+HPM-1274,35 Lakeside Ct,Chermside,Townhouse,3,740,Leased,2025-06-03,2027-06-03,T-5273,L-3018,Dev Patel,0,0
+HPM-1275,11/2 Main St,Woolloongabba,Unit,2,490,Leased,2025-03-29,2027-03-29,T-5274,L-3089,Dev Patel,0,0
+HPM-1276,20/14 Lakeside Ct,Toowong,Unit,1,450,Leased,2026-05-31,2027-05-31,T-5275,L-3248,Mia Thompson,3,192.86
+HPM-1277,70 Grove Ave,Annerley,Townhouse,3,700,Leased,2025-02-14,2027-02-14,T-5276,L-3281,Grace Liu,0,0
+HPM-1278,1/84 Park Lane,West End,Unit,2,575,Vacant,,,,L-3271,Mia Thompson,0,0
+HPM-1279,3/45 Riverview Tce,Wilston,Unit,3,625,Leased,2026-04-07,2027-04-07,T-5278,L-3075,Mia Thompson,0,0
+HPM-1280,23/173 Park Lane,Kangaroo Point,Unit,2,545,Leased,2026-03-31,2027-03-31,T-5279,L-3217,Grace Liu,0,0
+HPM-1281,23 Main St,Woolloongabba,Townhouse,2,710,Leased,2026-04-18,2027-04-18,T-5280,L-3198,Grace Liu,0,0
+HPM-1282,23/111 Ferndale St,Nundah,Unit,2,590,Leased,2025-10-12,2027-04-12,T-5281,L-3274,Dev Patel,0,0
+HPM-1283,11/109 Wattle St,New Farm,Unit,3,645,Leased,2024-12-04,2026-12-04,T-5282,L-3161,Dev Patel,0,0
+HPM-1284,4/79 Church St,West End,Unit,3,565,Leased,2025-10-30,2026-10-30,T-5283,L-3072,Grace Liu,0,0
+HPM-1285,21/50 Lakeside Ct,Carindale,Unit,1,535,Leased,2025-11-27,2026-11-27,T-5284,L-3073,Grace Liu,0,0
+HPM-1286,12/14 Riverview Tce,Paddington,Unit,3,610,Leased,2026-02-14,2027-02-14,T-5285,L-3091,Grace Liu,3,261.43
+HPM-1287,1/67 Jacaranda Cres,Wilston,Unit,1,470,Leased,2025-02-02,2027-02-02,T-5286,L-3165,Grace Liu,0,0
+HPM-1288,9/115 Grove Ave,New Farm,Unit,2,535,Leased,2025-02-17,2027-02-17,T-5287,L-3279,Mia Thompson,0,0
+HPM-1289,10/27 Jacaranda Cres,Kangaroo Point,Unit,2,560,Leased,2024-12-25,2026-12-25,T-5288,L-3158,Grace Liu,0,0
+HPM-1290,2/77 Ocean View Dr,Carindale,Unit,1,490,Leased,2025-07-15,2027-07-15,T-5289,L-3211,Dev Patel,0,0
+HPM-1291,74 Jacaranda Cres,New Farm,House,5,950,Leased,2026-08-18,2027-08-18,T-5290,L-3211,Grace Liu,0,0
+HPM-1292,4/114 Wattle St,Coorparoo,Unit,1,445,Leased,2025-05-07,2027-05-07,T-5291,L-3061,Grace Liu,3,190.71
+HPM-1293,4/68 Wattle St,Kangaroo Point,Unit,2,495,Leased,2026-04-07,2027-04-07,T-5292,L-3155,Grace Liu,0,0
+HPM-1294,54 Station Rd,New Farm,Townhouse,3,770,Leased,2025-05-18,2027-05-18,T-5293,L-3282,Mia Thompson,0,0
+HPM-1295,8/126 Ferndale St,Toowong,Unit,2,565,Leased,2025-04-22,2027-04-22,T-5294,L-3005,Mia Thompson,0,0
+HPM-1296,5/63 Hilltop Ave,Annerley,Unit,2,500,Leased,2026-02-28,2027-02-28,T-5295,L-3176,Dev Patel,0,0
+HPM-1297,188 Station Rd,Woolloongabba,Townhouse,3,750,Leased,2026-01-26,2027-01-26,T-5296,L-3207,Mia Thompson,0,0
+HPM-1298,16/104 Lakeside Ct,Ashgrove,Unit,2,585,Leased,2025-11-12,2027-05-13,T-5297,L-3038,Grace Liu,3,250.71
+HPM-1299,9/33 Church St,Indooroopilly,Unit,2,555,Leased,2025-07-05,2027-01-03,T-5298,L-3179,Mia Thompson,0,0
+HPM-1300,15/99 Station Rd,Kangaroo Point,Unit,1,470,Leased,2025-05-25,2027-05-25,T-5299,L-3134,Dev Patel,0,0
+HPM-1301,24/21 Church St,Carindale,Unit,1,530,Leased,2026-03-02,2027-03-02,T-5300,L-3215,Mia Thompson,0,0
+HPM-1302,6/150 Park Lane,Nundah,Unit,2,545,Leased,2026-01-09,2027-01-09,T-5301,L-3113,Mia Thompson,0,0
+HPM-1303,214 Wattle St,Ashgrove,Townhouse,2,705,Leased,2025-11-17,2027-05-18,T-5302,L-3249,Mia Thompson,0,0
+HPM-1304,45 Main St,New Farm,Townhouse,2,690,Leased,2026-05-23,2027-05-23,T-5303,L-3102,Mia Thompson,0,0
+HPM-1305,108 Grove Ave,Kangaroo Point,Townhouse,3,780,Leased,2026-07-14,2027-07-14,T-5304,L-3042,Dev Patel,0,0
+HPM-1306,2/135 Ocean View Dr,Ashgrove,Unit,1,530,Leased,2026-03-06,2027-03-06,T-5305,L-3207,Mia Thompson,0,0
+HPM-1307,5/165 Main St,Annerley,Unit,1,475,Leased,2025-06-01,2026-11-30,T-5306,L-3153,Grace Liu,8,542.86
+HPM-1308,11/139 Ocean View Dr,Carindale,Unit,1,440,Leased,2026-04-16,2026-10-15,T-5307,L-3179,Dev Patel,3,188.57
+HPM-1309,9/175 Ocean View Dr,Coorparoo,Unit,2,560,Leased,2026-01-19,2027-01-19,T-5308,L-3122,Mia Thompson,0,0
+HPM-1310,131 Station Rd,Paddington,Townhouse,3,700,Leased,2025-11-21,2026-11-21,T-5309,L-3128,Grace Liu,0,0
+HPM-1311,174 Church St,Carindale,Townhouse,2,700,Leased,2025-11-17,2026-11-17,T-5310,L-3129,Mia Thompson,0,0
+HPM-1312,18/18 Grove Ave,New Farm,Unit,2,585,Leased,2025-04-13,2026-10-12,T-5311,L-3203,Grace Liu,0,0
+HPM-1313,10/39 Wattle St,Indooroopilly,Unit,2,505,Leased,2026-06-25,2027-06-25,T-5312,L-3129,Grace Liu,0,0
+HPM-1314,197 Main St,Ashgrove,House,4,895,Leased,2025-10-07,2026-10-07,T-5313,L-3104,Dev Patel,0,0
+HPM-1315,59 Hilltop Ave,Toowong,Townhouse,3,725,Leased,2025-01-08,2027-01-08,T-5314,L-3283,Mia Thompson,0,0
+HPM-1316,9/177 Jacaranda Cres,Kangaroo Point,Unit,2,515,Leased,2026-01-12,2027-07-13,T-5315,L-3084,Dev Patel,0,0
+HPM-1317,201 Main St,Woolloongabba,House,4,885,Leased,2025-02-10,2027-08-11,T-5316,L-3126,Grace Liu,8,1011.43
+HPM-1318,24/10 Ferndale St,Annerley,Unit,2,575,Leased,2026-09-14,2027-03-15,T-5317,L-3078,Mia Thompson,0,0
+HPM-1319,44 Riverview Tce,Bulimba,Townhouse,3,725,Leased,2025-11-24,2026-11-24,T-5318,L-3007,Mia Thompson,0,0
+HPM-1320,38 Lakeside Ct,Bulimba,Townhouse,3,750,Leased,2025-09-19,2027-09-19,T-5319,L-3237,Mia Thompson,0,0
+HPM-1321,22/106 Ocean View Dr,Nundah,Unit,1,520,Leased,2025-06-22,2027-06-22,T-5320,L-3099,Dev Patel,0,0
+HPM-1322,35 Park Lane,New Farm,House,4,860,Leased,2025-08-03,2027-08-03,T-5321,L-3214,Mia Thompson,0,0
+HPM-1323,143 Riverview Tce,New Farm,Townhouse,2,660,Leased,2025-05-10,2027-05-10,T-5322,L-3186,Dev Patel,0,0
+HPM-1324,5/77 Grove Ave,Bulimba,Unit,1,445,Leased,2025-05-11,2027-05-11,T-5323,L-3116,Mia Thompson,0,0
+HPM-1325,15/102 Station Rd,Woolloongabba,Unit,2,515,Leased,2026-08-02,2027-08-02,T-5324,L-3239,Grace Liu,3,220.71
+HPM-1326,5/72 Lakeside Ct,West End,Unit,2,565,Leased,2025-05-29,2027-05-29,T-5325,L-3105,Dev Patel,0,0
+HPM-1327,5/80 Riverview Tce,Toowong,Unit,2,530,Leased,2026-08-04,2027-08-04,T-5326,L-3139,Mia Thompson,0,0
+HPM-1328,15/54 Main St,Bulimba,Unit,1,520,Leased,2026-03-27,2027-03-27,T-5327,L-3134,Dev Patel,0,0
+HPM-1329,10/16 Lakeside Ct,Annerley,Unit,1,440,Leased,2025-01-19,2027-07-20,T-5328,L-3254,Mia Thompson,0,0
+HPM-1330,11/5 Riverview Tce,Chermside,Unit,1,495,Leased,2025-12-08,2026-12-08,T-5329,L-3038,Dev Patel,5,353.57
+HPM-1331,9/148 Park Lane,Paddington,Unit,3,585,Leased,2025-02-22,2027-02-22,T-5330,L-3175,Dev Patel,0,0
+HPM-1332,15/16 Lakeside Ct,Carindale,Unit,3,625,Leased,2026-01-04,2027-01-04,T-5331,L-3124,Grace Liu,0,0
+HPM-1333,23/163 Main St,Paddington,Unit,2,570,Leased,2025-03-18,2027-09-16,T-5332,L-3177,Dev Patel,0,0
+HPM-1334,190 Hilltop Ave,Kangaroo Point,House,3,905,Leased,2026-04-19,2026-10-18,T-5333,L-3170,Dev Patel,0,0
+HPM-1335,47 Church St,Ashgrove,Townhouse,3,735,Leased,2026-07-27,2027-07-27,T-5334,L-3250,Mia Thompson,0,0
+HPM-1336,122 Hilltop Ave,Chermside,House,3,850,Leased,2026-07-15,2027-07-15,T-5335,L-3235,Grace Liu,0,0
+HPM-1337,4/171 Lakeside Ct,Carindale,Unit,3,565,Leased,2026-04-25,2026-10-24,T-5336,L-3118,Mia Thompson,8,645.71
+HPM-1338,23/50 Lakeside Ct,Bulimba,Unit,2,590,Leased,2026-04-06,2027-10-05,T-5337,L-3188,Grace Liu,0,0
+HPM-1339,20/13 Hilltop Ave,Wilston,Unit,1,450,Leased,2026-05-19,2027-05-19,T-5338,L-3067,Grace Liu,0,0
+HPM-1340,23/96 Park Lane,Chermside,Unit,2,565,Leased,2025-06-23,2027-06-23,T-5339,L-3087,Mia Thompson,8,645.71
+HPM-1341,1/19 Hilltop Ave,Bulimba,Unit,2,505,Leased,2026-07-01,2027-07-01,T-5340,L-3190,Grace Liu,8,577.14
+HPM-1342,99 Ocean View Dr,Chermside,Townhouse,3,710,Leased,2026-03-07,2027-09-05,T-5341,L-3145,Grace Liu,0,0
+HPM-1343,20/157 Ocean View Dr,West End,Unit,2,495,Leased,2026-07-03,2027-07-03,T-5342,L-3057,Grace Liu,0,0
+HPM-1344,4/33 Station Rd,New Farm,Unit,3,605,Leased,2025-01-26,2027-01-26,T-5343,L-3191,Dev Patel,0,0
+HPM-1345,15 Jacaranda Cres,Indooroopilly,Townhouse,3,740,Leased,2025-09-15,2027-09-15,T-5344,L-3094,Dev Patel,0,0
+HPM-1346,42 Ferndale St,Woolloongabba,House,4,900,Leased,2025-10-14,2026-10-14,T-5345,L-3013,Grace Liu,0,0
+HPM-1347,210 Park Lane,New Farm,House,4,960,Leased,2025-05-27,2027-05-27,T-5346,L-3241,Grace Liu,0,0
+HPM-1348,15/38 Station Rd,Coorparoo,Unit,2,515,Leased,2025-04-17,2027-04-17,T-5347,L-3251,Mia Thompson,0,0
+HPM-1349,10/93 Main St,Indooroopilly,Unit,1,510,Leased,2025-08-17,2027-02-15,T-5348,L-3187,Mia Thompson,0,0
+HPM-1350,1/91 Main St,Indooroopilly,Unit,2,585,Leased,2025-05-05,2027-05-05,T-5349,L-3128,Dev Patel,0,0
+HPM-1201,190 Church St,Coorparoo,Townhouse,3,720,Leased,2025-01-09,2027-01-09,T-5200,L-3005,Grace Liu,0,0
