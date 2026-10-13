@@ -28,7 +28,7 @@ The app has already done the lookups for you. You get the request, the property 
 - **Tradie:** must be one of the tradie list names exactly, or null with the reason in next_step (for example "No gasfitter on our tradie list").
 - **Cost:** estimated_cost is your best estimate in dollars from the job history, or null. Over 500 dollars, landlord_approval holds the approval request and work_order is null.
 - **Photo:** say in photo_attached whether a photo came with this request. If one did, describe it in one line in photo_description; otherwise photo_description is null.
-- **Tenant reply:** sign it with the property manager's first name and "Harbourline Property Management" (if no property is matched, sign it "Harbourline Property Management"). Use tenant references only, never names.
+- **Tenant reply:** open with "Hi there," (never the tenant reference or a name). Sign it with the property manager's first name and "Harbourline Property Management" (if no property is matched, sign it "Harbourline Property Management"). Use tenant references only, never names.
 - issue is one short line. next_step is one short line starting with a verb.
 - Do not use em dashes anywhere. Australian spelling.`,
 ].join("\n\n---\n\n");
@@ -94,7 +94,7 @@ export type Photo = { media_type: "image/jpeg" | "image/png" | "image/webp" | "i
 
 // Reference data changes rarely: cache it for two minutes.
 let ref: { at: number; properties: PropertyLike[]; jobs: Rec["f"][]; tradies: Rec["f"][] } | null = null;
-async function reference() {
+export async function reference() {
   if (ref && Date.now() - ref.at < 120_000) return ref;
   const [p, j, t] = await Promise.all([listAll("properties"), listAll("jobs"), listAll("tradies")]);
   ref = { at: Date.now(), properties: p.map((r) => r.f as PropertyLike), jobs: j.map((r) => r.f), tradies: t.map((r) => r.f) };
